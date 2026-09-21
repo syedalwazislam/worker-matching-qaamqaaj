@@ -1,0 +1,6 @@
+.env
+myenv/
+db/__pycache__/
+databricks/
+logs/etl.log
+service/__pycache__/

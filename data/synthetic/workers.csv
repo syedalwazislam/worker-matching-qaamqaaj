@@ -1,0 +1,601 @@
+worker_id,name,city,lat,lon,category,skills,age,join_date,tenure_days,jobs_completed,num_reviews,avg_rating,hourly_rate_pkr,response_time_min,is_verified,has_own_tools,cancellation_rate,is_cold_start
+W00001,Irfan Chaudhry,Rawalpindi,33.57323,72.98917,Masonry,boundary wall;plastering,30,2026-01-12,183,11,7,4.13,1726,29,True,False,0.053,False
+W00002,Naveed Abbasi,Rawalpindi,33.57485,73.02791,Plumbing,pipe fitting;drainage;motor repair,37,2025-05-31,409,35,19,4.92,672,11,True,True,0.127,False
+W00003,Shahid Bhatti,Karachi,24.82077,67.01503,Carpentry,wardrobe making;furniture repair;custom furniture,49,2024-05-14,791,25,12,4.42,2065,84,True,True,0.022,False
+W00004,Kashif Soomro,Lahore,31.59811,74.25946,Electrician,solar panel wiring,57,2025-09-13,304,15,8,4.0,977,35,False,True,0.021,False
+W00005,Muhammad Khan,Islamabad,33.67016,73.05318,Mechanic,engine repair;denting/painting;oil change,46,2025-05-06,434,19,7,3.77,1574,12,True,True,0.082,False
+W00006,Bilal Hussain,Lahore,31.54571,74.25923,Plumbing,bathroom fitting;leak repair;motor repair,49,2023-04-24,1177,26,21,4.36,1544,12,True,False,0.097,False
+W00007,Irfan Sheikh,Islamabad,33.6646,72.9997,Mechanic,bike repair,48,2025-09-05,312,15,9,3.89,1463,6,True,True,0.097,False
+W00008,Shahid Qureshi,Peshawar,33.99348,71.5158,Carpentry,door/window fitting;false ceiling,36,2024-03-23,843,37,16,5.0,2369,14,True,True,0.028,False
+W00009,Sajid Ansari,Rawalpindi,33.59353,73.02109,Mechanic,denting/painting;oil change,55,2023-06-30,1110,37,19,4.96,2014,8,False,True,0.013,False
+W00010,Ahmed Niazi,Faisalabad,31.44036,73.05492,Electrician,inverter/UPS install,26,2026-05-14,61,1,0,,745,8,True,False,0.063,True
+W00011,Adnan Hussain,Peshawar,34.02177,71.55537,Electrician,fan/light install,56,2025-09-22,295,13,9,4.02,906,7,True,True,0.05,False
+W00012,Adnan Soomro,Quetta,30.19481,66.96579,Masonry,boundary wall;waterproofing,49,2024-10-07,645,9,4,4.03,1620,10,True,True,0.013,False
+W00013,Irfan Rajput,Karachi,24.92087,67.03339,Plumbing,motor repair,25,2026-05-17,58,1,0,,1990,13,True,True,0.289,True
+W00014,Rashid Hussain,Faisalabad,31.37897,73.06325,Electrician,solar panel wiring;AC electrical;MCB/breaker,24,2023-01-24,1267,20,13,3.8,1769,47,True,True,0.009,False
+W00015,Tariq Qureshi,Karachi,24.79041,66.97901,Masonry,flooring;tile fitting,41,2023-07-08,1102,59,48,4.38,830,15,True,True,0.062,False
+W00016,Yasir Warraich,Peshawar,34.01873,71.53311,Electrician,AC electrical;solar panel wiring;fan/light install,44,2024-10-12,640,46,22,5.0,1599,19,True,True,0.055,False
+W00017,Irfan Baloch,Peshawar,34.0263,71.48419,Electrician,inverter/UPS install;AC electrical;wiring,32,2025-12-24,202,16,12,4.18,1479,24,True,True,0.07,False
+W00018,Usman Awan,Gujranwala,32.19426,74.22905,Masonry,waterproofing;boundary wall,45,2024-04-19,816,24,17,4.54,2324,24,True,True,0.153,False
+W00019,Muhammad Gill,Gujranwala,32.18903,74.18055,Plumbing,leak repair,36,2025-08-06,342,8,6,4.52,2043,18,False,True,0.013,False
+W00020,Javed Sheikh,Lahore,31.58014,74.22904,Carpentry,polishing;false ceiling;furniture repair,49,2024-11-05,616,39,26,4.21,741,10,True,True,0.026,False
+W00021,Tariq Raza,Faisalabad,31.42425,73.08621,Electrician,wiring;MCB/breaker;solar panel wiring,24,2024-04-14,821,19,15,3.79,1932,31,False,True,0.082,False
+W00022,Naveed Qureshi,Karachi,24.91121,67.03435,Electrician,MCB/breaker,39,2026-01-02,193,6,3,4.07,2677,21,True,False,0.053,False
+W00023,Zeeshan Raza,Hyderabad,25.39876,68.373,Carpentry,wardrobe making;polishing;furniture repair,50,2026-03-03,133,1,0,,816,82,True,True,0.08,True
+W00024,Naveed Niazi,Multan,30.12292,71.47045,Plumbing,pipe fitting,24,2023-03-15,1217,83,59,4.88,662,14,True,True,0.033,False
+W00025,Aftab Raza,Gujranwala,32.18054,74.21057,Plumbing,drainage;pipe fitting,20,2026-06-18,26,0,0,,488,90,False,True,0.039,True
+W00026,Adnan Soomro,Faisalabad,31.42941,73.07395,Electrician,MCB/breaker;AC electrical;fan/light install,36,2025-01-08,552,19,12,4.68,2375,6,True,True,0.194,False
+W00027,Rashid Ansari,Rawalpindi,33.5938,72.99435,Mechanic,denting/painting;oil change;bike repair,54,2025-02-27,502,22,10,3.03,475,10,True,True,0.022,False
+W00028,Zeeshan Gill,Karachi,24.87182,67.03825,Plumbing,pipe fitting,41,2025-10-12,275,11,6,4.83,2600,25,True,True,0.031,False
+W00029,Ali Bhatti,Gujranwala,32.19995,74.20781,Mechanic,AC repair;denting/painting;electrical (auto),36,2025-12-22,204,2,1,3.38,2137,86,True,True,0.017,True
+W00030,Bilal Gill,Karachi,24.82713,67.029,Electrician,inverter/UPS install,47,2025-06-28,381,14,6,4.66,860,10,False,True,0.023,False
+W00031,Bilal Ahmed,Karachi,24.83415,67.0884,Electrician,MCB/breaker;fan/light install;inverter/UPS install,44,2025-09-01,316,11,5,4.23,1021,24,True,True,0.002,False
+W00032,Aftab Baloch,Lahore,31.56208,74.33464,Plumbing,drainage;motor repair,32,2025-05-14,426,13,8,4.71,1624,35,False,True,0.053,False
+W00033,Zeeshan Warraich,Karachi,24.80737,66.99686,Electrician,AC electrical;MCB/breaker;fan/light install,25,2026-03-29,107,3,2,4.6,1904,5,True,True,0.05,False
+W00034,Ali Malik,Gujranwala,32.18265,74.20177,Masonry,tile fitting;boundary wall,25,2025-07-18,361,22,15,4.63,1005,34,True,True,0.008,False
+W00035,Tariq Baloch,Islamabad,33.71149,73.05596,Plumbing,pipe fitting,40,2026-06-15,29,1,0,,2396,59,False,True,0.008,True
+W00036,Rashid Gill,Islamabad,33.63694,73.06278,Electrician,inverter/UPS install,48,2026-01-21,174,5,3,4.16,1428,34,True,True,0.001,False
+W00037,Yasir Ahmed,Lahore,31.45286,74.32808,Carpentry,wardrobe making,40,2023-12-21,936,49,27,3.84,2871,56,True,True,0.119,False
+W00038,Tariq Rajput,Faisalabad,31.42238,73.06859,Electrician,MCB/breaker,56,2024-10-03,649,12,5,4.18,1732,12,True,False,0.059,False
+W00039,Shahid Soomro,Peshawar,33.9753,71.4872,Masonry,waterproofing;brickwork;flooring,29,2026-03-18,118,5,2,5.0,2063,14,True,True,0.149,False
+W00040,Javed Ahmed,Karachi,24.90815,67.091,Carpentry,wardrobe making;furniture repair,31,2025-04-22,448,29,12,3.04,558,35,True,True,0.049,False
+W00041,Ahmed Sheikh,Gujranwala,32.18656,74.21548,Plumbing,motor repair;leak repair;water tank install,30,2025-06-19,390,4,3,4.23,1427,10,True,True,0.015,False
+W00042,Tariq Chaudhry,Lahore,31.47487,74.29746,Masonry,flooring;boundary wall,42,2023-10-22,996,41,24,4.52,573,18,False,True,0.143,False
+W00043,Ali Warraich,Karachi,24.9208,67.07236,Carpentry,polishing,29,2025-01-31,529,33,24,3.9,2678,46,True,False,0.108,False
+W00044,Sajid Gill,Rawalpindi,33.5769,73.05022,Plumbing,drainage;pipe fitting,45,2024-06-18,756,14,7,4.17,1922,54,True,True,0.069,False
+W00045,Javed Ahmed,Karachi,24.79509,67.02492,Plumbing,motor repair;pipe fitting;water tank install,36,2024-10-16,636,51,34,4.01,1895,7,True,False,0.04,False
+W00046,Shahid Hussain,Faisalabad,31.41904,73.05647,Carpentry,custom furniture,25,2024-12-15,576,22,14,3.87,1280,38,True,True,0.079,False
+W00047,Waseem Butt,Karachi,24.83658,67.01575,Carpentry,furniture repair;false ceiling,33,2023-07-12,1098,62,48,4.09,1593,42,False,True,0.094,False
+W00048,Kashif Gill,Lahore,31.62777,74.28721,Masonry,tile fitting;boundary wall;waterproofing,55,2026-03-12,124,4,3,4.84,2602,26,True,True,0.088,False
+W00049,Irfan Ansari,Rawalpindi,33.55204,73.04113,Masonry,waterproofing;plastering,47,2024-05-01,804,21,14,3.63,911,9,True,False,0.038,False
+W00050,Zeeshan Baloch,Karachi,24.82561,66.9983,Electrician,MCB/breaker,31,2023-02-28,1232,48,24,4.17,2577,9,False,False,0.014,False
+W00051,Ali Sheikh,Karachi,24.83482,66.851,Electrician,fan/light install;MCB/breaker;solar panel wiring,42,2025-12-27,199,9,6,4.71,2733,13,False,True,0.07,False
+W00052,Rashid Awan,Faisalabad,31.43282,73.06241,Electrician,solar panel wiring;inverter/UPS install;fan/light install,31,2025-07-05,374,28,17,4.35,738,33,False,True,0.05,False
+W00053,Usman Chaudhry,Lahore,31.53809,74.34739,Plumbing,pipe fitting;leak repair,26,2023-06-12,1128,72,34,4.22,1070,6,True,False,0.086,False
+W00054,Aftab Hussain,Gujranwala,32.18059,74.20122,Mechanic,denting/painting;bike repair;AC repair,51,2026-06-29,15,1,0,,2333,15,True,True,0.035,True
+W00055,Ahmed Abbasi,Karachi,24.95771,67.00896,Masonry,brickwork;flooring,49,2024-07-19,725,30,18,4.23,1986,13,False,True,0.02,False
+W00056,Kashif Memon,Faisalabad,31.42984,73.09136,Masonry,boundary wall;flooring,34,2024-03-18,848,21,17,5.0,1246,35,True,True,0.063,False
+W00057,Ali Hussain,Hyderabad,25.38771,68.37048,Electrician,fan/light install,50,2023-06-12,1128,23,16,4.1,815,29,False,True,0.02,False
+W00058,Zeeshan Hussain,Karachi,24.89788,67.02149,Mechanic,bike repair;oil change;denting/painting,39,2026-03-20,116,4,2,5.0,1424,23,True,True,0.063,False
+W00059,Bilal Soomro,Karachi,24.90134,66.94381,Mechanic,bike repair;AC repair;oil change,32,2024-12-03,588,25,12,4.22,2495,23,True,True,0.083,False
+W00060,Naveed Memon,Peshawar,34.0186,71.53449,Carpentry,polishing,33,2023-11-29,958,41,31,4.62,415,14,True,False,0.067,False
+W00061,Naveed Chaudhry,Quetta,30.14263,66.9537,Carpentry,furniture repair;polishing;door/window fitting,42,2023-07-18,1092,41,34,4.36,2060,19,False,True,0.009,False
+W00062,Adnan Warraich,Karachi,24.82493,67.00161,Mechanic,bike repair,31,2025-06-04,405,20,14,5.0,1573,14,True,True,0.023,False
+W00063,Imran Qureshi,Karachi,24.93891,67.05151,Carpentry,false ceiling,32,2025-08-23,325,18,8,4.68,830,16,True,True,0.059,False
+W00064,Ali Malik,Karachi,24.84449,67.10738,Plumbing,pipe fitting;drainage,42,2023-08-05,1074,23,10,4.61,1081,12,True,True,0.258,False
+W00065,Rashid Malik,Rawalpindi,33.56549,73.0353,Masonry,boundary wall;tile fitting;waterproofing,57,2023-04-21,1180,21,12,4.81,1772,30,True,False,0.204,False
+W00066,Kashif Awan,Islamabad,33.67229,73.03941,Plumbing,leak repair,55,2025-08-05,343,15,10,4.01,1912,13,True,True,0.061,False
+W00067,Tariq Ansari,Lahore,31.56801,74.36447,Electrician,inverter/UPS install,49,2024-02-11,884,42,16,3.59,2020,15,False,True,0.102,False
+W00068,Ali Awan,Hyderabad,25.43521,68.33324,Masonry,waterproofing,44,2025-05-26,414,5,2,4.46,2206,30,True,True,0.195,False
+W00069,Tariq Ansari,Karachi,24.84954,66.95829,Carpentry,furniture repair;polishing;wardrobe making,23,2023-05-09,1162,15,6,4.88,2439,39,False,True,0.096,False
+W00070,Sajid Qureshi,Karachi,24.89467,66.96813,Plumbing,pipe fitting;water tank install;motor repair,44,2026-06-16,28,2,1,3.95,1235,11,True,False,0.022,True
+W00071,Yasir Warraich,Lahore,31.5531,74.32299,Electrician,wiring;inverter/UPS install;fan/light install,56,2026-04-18,87,3,2,3.79,1294,36,True,True,0.1,False
+W00072,Javed Qureshi,Peshawar,34.01394,71.52221,Plumbing,motor repair;water tank install,23,2025-12-02,224,15,6,4.84,2340,20,True,True,0.174,False
+W00073,Javed Soomro,Rawalpindi,33.50722,72.96319,Carpentry,polishing,34,2024-08-23,690,13,8,3.7,2103,31,True,False,0.038,False
+W00074,Ali Chaudhry,Karachi,24.7899,67.04937,Mechanic,engine repair,24,2025-12-16,210,4,2,3.79,1369,23,True,True,0.073,False
+W00075,Aftab Malik,Faisalabad,31.36792,73.05034,Carpentry,custom furniture;false ceiling,33,2026-05-07,68,2,1,4.94,1300,13,True,True,0.017,True
+W00076,Zeeshan Awan,Gujranwala,32.20602,74.19232,Mechanic,oil change;engine repair,47,2023-02-28,1232,88,37,5.0,1523,32,True,True,0.059,False
+W00077,Aftab Soomro,Multan,30.14864,71.5337,Carpentry,wardrobe making,31,2026-05-29,46,4,3,4.4,1545,15,False,False,0.143,False
+W00078,Yasir Bhatti,Peshawar,33.97422,71.5271,Carpentry,door/window fitting,31,2023-04-26,1175,25,20,4.8,730,8,False,True,0.065,False
+W00079,Tariq Ahmed,Multan,30.14994,71.52014,Carpentry,door/window fitting;wardrobe making;polishing,39,2023-03-23,1209,30,19,4.45,2081,20,False,False,0.097,False
+W00080,Naveed Awan,Hyderabad,25.41542,68.35836,Masonry,boundary wall,50,2025-09-21,296,9,6,4.14,880,19,True,False,0.031,False
+W00081,Aftab Chaudhry,Rawalpindi,33.56287,73.00517,Masonry,waterproofing,56,2026-07-07,7,0,0,,540,63,True,True,0.053,True
+W00082,Ali Abbasi,Lahore,31.52004,74.32732,Carpentry,false ceiling;custom furniture;wardrobe making,31,2025-11-26,230,14,9,5.0,1299,43,True,False,0.019,False
+W00083,Irfan Qureshi,Islamabad,33.64152,73.00256,Mechanic,electrical (auto);denting/painting,47,2023-10-05,1013,44,30,3.23,1117,6,False,True,0.157,False
+W00084,Bilal Abbasi,Lahore,31.5662,74.38248,Carpentry,false ceiling;furniture repair;wardrobe making,46,2023-08-14,1065,34,17,4.02,1788,26,True,True,0.063,False
+W00085,Javed Abbasi,Rawalpindi,33.55,73.00024,Masonry,brickwork;plastering,26,2024-04-10,825,18,9,4.88,972,9,True,True,0.003,False
+W00086,Naveed Khan,Rawalpindi,33.60009,73.0085,Masonry,brickwork,38,2026-01-23,172,11,4,3.52,1255,24,True,False,0.176,False
+W00087,Ahmed Gill,Lahore,31.50319,74.41942,Carpentry,wardrobe making,48,2026-02-21,143,5,2,4.01,599,78,True,False,0.026,False
+W00088,Sajid Soomro,Lahore,31.54241,74.324,Masonry,boundary wall;tile fitting;waterproofing,20,2023-06-30,1110,62,32,3.83,1497,71,True,True,0.102,False
+W00089,Usman Ansari,Karachi,24.86247,67.06283,Carpentry,polishing;false ceiling,47,2026-07-06,8,0,0,,2415,7,True,True,0.002,True
+W00090,Adnan Hussain,Karachi,24.77751,66.9165,Carpentry,custom furniture;wardrobe making,56,2025-04-08,462,22,11,3.8,695,34,True,True,0.14,False
+W00091,Usman Qureshi,Faisalabad,31.40777,73.08669,Masonry,flooring;boundary wall,23,2023-12-20,937,24,18,4.22,740,26,True,True,0.112,False
+W00092,Adnan Niazi,Peshawar,34.02385,71.55005,Mechanic,engine repair;denting/painting,57,2024-01-30,896,47,35,4.26,1326,21,True,True,0.092,False
+W00093,Kashif Memon,Islamabad,33.63466,73.04968,Masonry,brickwork;tile fitting;boundary wall,31,2024-10-13,639,27,21,5.0,2096,12,True,True,0.005,False
+W00094,Adnan Ansari,Quetta,30.15413,66.9726,Carpentry,wardrobe making;door/window fitting,42,2024-09-03,679,34,26,4.22,1203,21,False,True,0.037,False
+W00095,Zeeshan Bhatti,Islamabad,33.6602,73.03855,Electrician,fan/light install;MCB/breaker,48,2023-10-12,1006,53,22,4.43,533,34,False,True,0.009,False
+W00096,Waseem Raza,Multan,30.16707,71.51403,Carpentry,door/window fitting;wardrobe making;polishing,24,2023-11-13,974,28,20,4.98,1344,30,True,False,0.028,False
+W00097,Tariq Memon,Multan,30.13387,71.52785,Masonry,brickwork;flooring;boundary wall,27,2026-04-04,101,1,0,,652,5,False,True,0.068,True
+W00098,Irfan Qureshi,Lahore,31.55158,74.33906,Mechanic,AC repair,35,2025-04-03,467,22,12,3.63,2382,10,True,True,0.073,False
+W00099,Ali Baloch,Karachi,24.82608,67.01993,Electrician,inverter/UPS install,36,2024-02-01,894,19,10,5.0,1933,32,True,True,0.032,False
+W00100,Aftab Malik,Karachi,24.85204,66.9281,Electrician,wiring;inverter/UPS install;MCB/breaker,56,2023-10-14,1004,42,32,4.12,1600,24,True,False,0.015,False
+W00101,Muhammad Ahmed,Lahore,31.59016,74.34837,Electrician,solar panel wiring;inverter/UPS install;fan/light install,36,2024-09-13,669,42,34,3.67,983,6,True,True,0.046,False
+W00102,Muhammad Memon,Islamabad,33.67946,73.02912,Carpentry,custom furniture;polishing;wardrobe making,29,2023-08-04,1075,46,26,3.77,2647,17,True,False,0.003,False
+W00103,Faisal Awan,Multan,30.16147,71.51412,Carpentry,polishing;custom furniture;furniture repair,47,2026-07-05,9,0,0,,2205,26,True,True,0.019,True
+W00104,Aftab Rajput,Peshawar,33.99466,71.51962,Carpentry,door/window fitting;polishing,22,2025-10-26,261,9,4,3.23,878,137,True,True,0.09,False
+W00105,Ali Memon,Islamabad,33.7068,73.06374,Carpentry,custom furniture;wardrobe making;door/window fitting,45,2025-01-20,540,8,3,4.49,822,9,True,True,0.023,False
+W00106,Kashif Hussain,Islamabad,33.7447,73.09541,Masonry,tile fitting;plastering;brickwork,29,2023-10-17,1001,14,5,3.48,1933,7,True,True,0.15,False
+W00107,Bilal Baloch,Lahore,31.53638,74.31452,Mechanic,bike repair;engine repair,39,2024-08-09,704,34,27,4.43,2758,5,True,False,0.072,False
+W00108,Javed Abbasi,Lahore,31.40384,74.40312,Carpentry,furniture repair;custom furniture;door/window fitting,26,2025-03-04,497,19,13,4.12,2509,15,True,True,0.026,False
+W00109,Javed Bhatti,Multan,30.11739,71.51548,Plumbing,leak repair;motor repair,23,2026-04-30,75,4,2,3.75,1855,22,True,True,0.032,False
+W00110,Kashif Ahmed,Quetta,30.18112,66.98073,Mechanic,electrical (auto);denting/painting,27,2024-03-08,858,50,30,3.67,643,40,True,True,0.041,False
+W00111,Yasir Awan,Karachi,24.85538,66.97527,Plumbing,motor repair;water tank install;pipe fitting,48,2024-06-18,756,27,18,3.93,722,5,True,True,0.064,False
+W00112,Imran Warraich,Karachi,24.81354,66.98371,Plumbing,leak repair;water tank install,57,2024-10-26,626,19,14,4.61,1911,31,True,True,0.033,False
+W00113,Bilal Qureshi,Hyderabad,25.38268,68.36648,Mechanic,engine repair;electrical (auto),31,2023-07-09,1101,34,18,4.26,1397,10,True,False,0.074,False
+W00114,Rashid Bhatti,Karachi,24.8893,67.00198,Masonry,brickwork;waterproofing;boundary wall,32,2026-06-06,38,2,1,3.19,1741,41,True,True,0.033,True
+W00115,Aftab Ahmed,Karachi,24.92049,66.94148,Masonry,plastering;tile fitting,22,2023-12-06,951,28,17,3.38,1841,9,False,True,0.08,False
+W00116,Imran Soomro,Islamabad,33.69662,73.06734,Mechanic,oil change;engine repair;denting/painting,33,2026-04-23,82,5,3,4.51,493,10,True,True,0.011,False
+W00117,Zeeshan Khan,Lahore,31.52102,74.27929,Carpentry,door/window fitting;false ceiling;polishing,31,2024-05-03,802,25,11,4.13,2286,74,True,True,0.072,False
+W00118,Waseem Bhatti,Karachi,24.90983,67.00678,Carpentry,custom furniture;false ceiling;door/window fitting,39,2025-11-06,250,6,4,4.49,2528,12,True,True,0.08,False
+W00119,Rashid Sheikh,Islamabad,33.67576,73.04999,Plumbing,water tank install,34,2023-12-15,942,56,35,3.96,1673,10,True,True,0.077,False
+W00120,Yasir Baloch,Lahore,31.5308,74.3598,Mechanic,electrical (auto);oil change,34,2025-12-17,209,4,3,5.0,2201,10,True,False,0.04,False
+W00121,Waseem Qureshi,Karachi,24.8099,66.93657,Carpentry,false ceiling,49,2026-02-28,136,4,1,5.0,2686,10,True,False,0.032,False
+W00122,Ahmed Soomro,Lahore,31.53472,74.28277,Electrician,fan/light install;MCB/breaker,36,2026-03-04,132,2,1,5.0,686,50,True,False,0.034,True
+W00123,Muhammad Ansari,Multan,30.17444,71.50317,Carpentry,door/window fitting;false ceiling,29,2024-04-20,815,20,10,4.24,1125,60,True,True,0.096,False
+W00124,Yasir Khan,Lahore,31.57158,74.37414,Carpentry,custom furniture;polishing;false ceiling,23,2024-07-07,737,27,12,4.28,2206,46,True,True,0.077,False
+W00125,Muhammad Gill,Lahore,31.55725,74.37256,Mechanic,bike repair,42,2026-01-14,181,8,4,4.61,1934,25,True,True,0.008,False
+W00126,Bilal Chaudhry,Rawalpindi,33.53746,73.01465,Mechanic,electrical (auto),44,2024-08-31,682,26,16,4.74,2286,37,True,True,0.073,False
+W00127,Adnan Abbasi,Lahore,31.45738,74.32083,Plumbing,motor repair;pipe fitting;leak repair,24,2023-02-12,1248,20,10,2.54,938,12,True,True,0.053,False
+W00128,Sajid Warraich,Karachi,24.88248,67.04295,Plumbing,bathroom fitting;leak repair;drainage,20,2024-04-21,814,24,10,4.71,2206,7,False,False,0.038,False
+W00129,Shahid Niazi,Lahore,31.41157,74.32187,Electrician,wiring;solar panel wiring;AC electrical,55,2024-07-03,741,41,34,4.67,584,8,False,True,0.07,False
+W00130,Muhammad Awan,Gujranwala,32.18229,74.20289,Mechanic,oil change;electrical (auto),41,2024-02-26,869,22,10,3.74,680,49,True,True,0.077,False
+W00131,Faisal Baloch,Multan,30.22207,71.54437,Electrician,AC electrical;wiring,35,2025-08-23,325,3,2,3.81,797,5,True,True,0.088,False
+W00132,Yasir Butt,Lahore,31.44038,74.3511,Electrician,solar panel wiring;wiring;MCB/breaker,54,2024-01-19,907,38,31,4.29,1635,7,True,True,0.029,False
+W00133,Javed Abbasi,Karachi,24.85381,67.09667,Mechanic,AC repair,34,2026-03-07,129,10,6,4.79,2869,6,True,True,0.025,False
+W00134,Irfan Butt,Faisalabad,31.40082,73.0947,Electrician,solar panel wiring;wiring,49,2025-04-27,443,25,17,4.3,612,11,True,False,0.024,False
+W00135,Sajid Chaudhry,Rawalpindi,33.52666,73.0465,Plumbing,pipe fitting;water tank install,30,2025-02-04,525,21,16,3.38,1173,7,True,True,0.078,False
+W00136,Kashif Butt,Karachi,24.7996,67.00725,Electrician,wiring;AC electrical;solar panel wiring,56,2025-09-23,294,11,9,4.72,2688,54,True,True,0.06,False
+W00137,Sajid Qureshi,Multan,30.14681,71.54284,Masonry,brickwork;tile fitting,33,2025-12-05,221,7,3,3.34,706,11,True,True,0.032,False
+W00138,Bilal Chaudhry,Karachi,24.83304,66.97511,Plumbing,bathroom fitting;motor repair;leak repair,20,2026-03-24,112,9,3,4.28,1514,27,True,True,0.065,False
+W00139,Yasir Ahmed,Lahore,31.5116,74.39813,Plumbing,motor repair,29,2024-10-06,646,43,30,4.62,1578,5,True,True,0.134,False
+W00140,Irfan Qureshi,Faisalabad,31.40196,73.12451,Carpentry,door/window fitting;custom furniture,30,2025-04-24,446,30,21,4.94,2156,6,True,True,0.045,False
+W00141,Yasir Niazi,Rawalpindi,33.57956,73.02342,Carpentry,polishing;false ceiling,51,2026-02-26,138,4,3,4.64,1801,7,True,True,0.062,False
+W00142,Bilal Ansari,Faisalabad,31.37322,73.07611,Electrician,MCB/breaker;AC electrical;solar panel wiring,51,2025-11-22,234,15,7,5.0,2264,35,True,True,0.015,False
+W00143,Zeeshan Khan,Lahore,31.5981,74.33925,Plumbing,water tank install;leak repair;pipe fitting,26,2025-01-11,549,29,21,4.63,2503,45,True,True,0.023,False
+W00144,Kashif Gill,Islamabad,33.71901,73.02977,Mechanic,engine repair,38,2025-12-20,206,7,4,3.91,1598,12,True,True,0.03,False
+W00145,Muhammad Awan,Lahore,31.62657,74.35417,Mechanic,engine repair,26,2025-01-21,539,18,12,4.31,2750,22,False,False,0.139,False
+W00146,Bilal Ansari,Lahore,31.52044,74.37303,Carpentry,door/window fitting,41,2024-05-15,790,49,39,4.85,2011,16,True,True,0.077,False
+W00147,Zeeshan Ahmed,Lahore,31.5204,74.35701,Electrician,wiring;AC electrical,52,2024-12-18,573,28,16,3.72,2354,9,True,False,0.048,False
+W00148,Faisal Awan,Karachi,24.83284,67.03021,Electrician,wiring;solar panel wiring;MCB/breaker,28,2023-08-23,1056,48,21,4.87,2306,25,True,True,0.066,False
+W00149,Faisal Niazi,Gujranwala,32.1495,74.16891,Plumbing,motor repair,43,2023-04-15,1186,77,48,4.22,611,39,True,False,0.062,False
+W00150,Adnan Rajput,Islamabad,33.69448,73.04412,Masonry,boundary wall,49,2026-02-18,146,3,1,4.68,708,19,True,True,0.071,False
+W00151,Ahmed Rajput,Lahore,31.54122,74.43566,Masonry,tile fitting;flooring;brickwork,32,2023-04-07,1194,65,36,3.8,2870,8,True,True,0.019,False
+W00152,Irfan Ahmed,Multan,30.18191,71.51394,Plumbing,pipe fitting,49,2023-02-28,1232,79,32,3.61,1653,58,False,True,0.115,False
+W00153,Kashif Gill,Islamabad,33.66662,73.07754,Carpentry,false ceiling,48,2023-10-11,1007,63,37,4.94,2111,15,True,True,0.282,False
+W00154,Javed Hussain,Karachi,24.80005,67.09137,Plumbing,pipe fitting;bathroom fitting;motor repair,30,2023-09-28,1020,40,29,4.29,1500,40,True,True,0.02,False
+W00155,Faisal Qureshi,Karachi,24.82633,67.03472,Mechanic,bike repair;engine repair;oil change,31,2024-11-08,613,12,5,4.4,2707,5,True,True,0.08,False
+W00156,Faisal Warraich,Islamabad,33.67225,73.03388,Masonry,boundary wall,27,2024-11-13,608,6,4,3.84,813,28,True,True,0.21,False
+W00157,Kashif Memon,Lahore,31.49992,74.36826,Plumbing,bathroom fitting,34,2024-05-10,795,47,39,4.78,1830,70,True,True,0.105,False
+W00158,Usman Butt,Rawalpindi,33.60159,73.02339,Electrician,AC electrical,38,2025-07-03,376,28,18,4.35,1166,26,True,True,0.143,False
+W00159,Sajid Gill,Karachi,24.82005,66.93668,Carpentry,furniture repair;wardrobe making;custom furniture,40,2023-11-12,975,17,8,4.71,2387,65,False,True,0.092,False
+W00160,Bilal Memon,Lahore,31.50882,74.36468,Electrician,solar panel wiring;fan/light install,24,2023-01-16,1275,43,35,4.05,1081,14,True,True,0.012,False
+W00161,Faisal Niazi,Faisalabad,31.4191,73.10947,Electrician,inverter/UPS install;solar panel wiring;wiring,51,2024-10-14,638,39,28,3.63,984,9,True,True,0.022,False
+W00162,Ali Niazi,Karachi,24.78432,66.96243,Plumbing,pipe fitting;motor repair;water tank install,35,2025-11-26,230,8,4,3.93,2329,51,True,True,0.059,False
+W00163,Irfan Soomro,Karachi,24.9567,67.02645,Plumbing,water tank install;leak repair;bathroom fitting,42,2025-07-03,376,16,8,3.4,1604,32,True,True,0.086,False
+W00164,Sajid Butt,Islamabad,33.69455,73.02336,Electrician,wiring;AC electrical,28,2023-11-24,963,26,12,4.27,2691,48,True,True,0.012,False
+W00165,Shahid Chaudhry,Faisalabad,31.47932,73.07661,Plumbing,water tank install;leak repair,52,2023-05-06,1165,62,38,5.0,852,21,True,True,0.109,False
+W00166,Irfan Bhatti,Islamabad,33.65885,73.00756,Carpentry,polishing,28,2025-08-01,347,11,7,4.4,734,35,True,True,0.132,False
+W00167,Ahmed Soomro,Multan,30.16633,71.47719,Masonry,boundary wall;waterproofing,32,2026-05-29,46,0,0,,1219,18,True,False,0.011,True
+W00168,Ahmed Niazi,Lahore,31.57829,74.28212,Plumbing,drainage;pipe fitting;bathroom fitting,20,2025-04-13,457,17,8,3.9,1549,15,True,True,0.06,False
+W00169,Imran Baloch,Lahore,31.59415,74.41478,Plumbing,pipe fitting,28,2023-09-03,1045,25,17,3.66,2635,9,True,True,0.064,False
+W00170,Faisal Malik,Lahore,31.54991,74.35642,Mechanic,AC repair;denting/painting,32,2023-08-12,1067,74,53,4.61,461,72,True,True,0.034,False
+W00171,Irfan Ansari,Peshawar,34.00411,71.54215,Mechanic,engine repair;bike repair;denting/painting,22,2026-06-21,23,0,0,,1661,62,True,True,0.146,True
+W00172,Muhammad Warraich,Faisalabad,31.47169,73.09477,Plumbing,leak repair;drainage,50,2025-05-24,416,2,1,4.68,1432,10,True,True,0.158,True
+W00173,Kashif Warraich,Karachi,24.82069,66.99191,Masonry,waterproofing,41,2024-12-14,577,32,20,4.62,2709,14,False,False,0.087,False
+W00174,Irfan Hussain,Islamabad,33.66361,73.03035,Electrician,inverter/UPS install;MCB/breaker;wiring,43,2023-05-04,1167,41,27,5.0,491,14,True,True,0.075,False
+W00175,Zeeshan Ahmed,Lahore,31.56322,74.29815,Masonry,tile fitting;boundary wall,39,2023-09-09,1039,49,22,3.74,855,15,False,True,0.089,False
+W00176,Aftab Bhatti,Peshawar,34.00064,71.50349,Plumbing,drainage,39,2023-05-29,1142,46,36,4.12,1561,6,True,True,0.023,False
+W00177,Irfan Hussain,Faisalabad,31.4364,73.04252,Plumbing,leak repair,46,2025-06-16,393,6,4,3.65,1890,23,True,True,0.039,False
+W00178,Irfan Awan,Multan,30.16869,71.53238,Plumbing,motor repair,37,2023-05-02,1169,30,17,4.14,1140,26,True,True,0.115,False
+W00179,Irfan Awan,Faisalabad,31.36882,73.0858,Masonry,flooring,32,2026-04-30,75,3,1,4.55,550,65,False,True,0.105,False
+W00180,Usman Raza,Hyderabad,25.41827,68.34075,Plumbing,water tank install;pipe fitting;drainage,55,2024-02-06,889,12,9,3.95,1253,11,True,True,0.107,False
+W00181,Shahid Soomro,Faisalabad,31.46185,73.05562,Carpentry,false ceiling;custom furniture,27,2024-11-07,614,33,18,4.2,617,12,True,True,0.128,False
+W00182,Bilal Ansari,Karachi,24.74569,66.93318,Masonry,waterproofing,52,2024-02-29,866,32,19,4.48,1227,9,True,True,0.151,False
+W00183,Rashid Niazi,Karachi,24.87734,66.97142,Electrician,inverter/UPS install,39,2026-02-25,139,2,1,4.53,1558,26,True,False,0.073,True
+W00184,Javed Abbasi,Faisalabad,31.40616,73.0655,Electrician,MCB/breaker;fan/light install,52,2024-07-20,724,14,11,4.03,2346,5,True,True,0.053,False
+W00185,Kashif Qureshi,Lahore,31.57896,74.34681,Carpentry,door/window fitting;false ceiling;polishing,22,2025-11-14,242,6,3,3.33,2359,7,False,False,0.009,False
+W00186,Rashid Warraich,Islamabad,33.70238,73.01733,Mechanic,bike repair;AC repair;engine repair,21,2026-02-07,157,9,6,4.12,556,15,False,True,0.076,False
+W00187,Adnan Qureshi,Peshawar,33.98063,71.51128,Masonry,plastering;brickwork,37,2023-01-02,1289,28,11,5.0,2058,5,True,True,0.039,False
+W00188,Ali Sheikh,Multan,30.11721,71.50633,Electrician,inverter/UPS install;wiring,26,2024-07-30,714,29,17,3.32,2357,26,True,True,0.008,False
+W00189,Javed Abbasi,Peshawar,34.00654,71.56389,Electrician,wiring;MCB/breaker;AC electrical,41,2023-09-27,1021,42,32,3.43,2114,15,True,True,0.089,False
+W00190,Kashif Ahmed,Peshawar,34.01241,71.54973,Carpentry,wardrobe making,24,2025-01-01,559,27,14,5.0,2474,42,False,True,0.015,False
+W00191,Aftab Baloch,Rawalpindi,33.55752,73.06823,Carpentry,false ceiling;custom furniture;polishing,56,2023-05-22,1149,39,17,4.03,1417,7,True,True,0.084,False
+W00192,Shahid Soomro,Quetta,30.16006,66.98051,Electrician,MCB/breaker,36,2024-01-27,899,55,27,3.29,1408,45,False,False,0.12,False
+W00193,Ahmed Chaudhry,Karachi,24.89373,66.92255,Mechanic,electrical (auto);engine repair,57,2026-04-09,96,8,6,4.45,798,15,True,True,0.069,False
+W00194,Sajid Memon,Hyderabad,25.41759,68.35317,Electrician,wiring;AC electrical,45,2025-10-18,269,11,9,4.37,1002,8,True,True,0.029,False
+W00195,Muhammad Rajput,Lahore,31.50368,74.42201,Mechanic,oil change;bike repair,30,2025-04-26,444,15,8,4.6,2787,7,True,True,0.023,False
+W00196,Ali Butt,Gujranwala,32.19579,74.18917,Electrician,fan/light install,29,2023-09-02,1046,19,8,4.25,2089,19,True,True,0.077,False
+W00197,Adnan Raza,Peshawar,33.98579,71.52094,Mechanic,denting/painting,53,2023-11-15,972,53,28,4.9,574,14,True,False,0.029,False
+W00198,Faisal Niazi,Peshawar,34.02811,71.49369,Electrician,solar panel wiring,48,2024-06-25,749,13,8,4.69,1022,20,True,False,0.132,False
+W00199,Imran Awan,Lahore,31.67434,74.32222,Plumbing,motor repair;pipe fitting;drainage,33,2024-07-03,741,23,12,4.11,1380,6,True,True,0.09,False
+W00200,Bilal Niazi,Gujranwala,32.17611,74.18523,Carpentry,furniture repair,45,2024-07-08,736,39,27,4.09,1095,18,True,True,0.083,False
+W00201,Ali Ansari,Karachi,24.80514,67.07472,Masonry,flooring;tile fitting,25,2025-07-31,348,28,19,3.84,1500,38,True,False,0.008,False
+W00202,Naveed Soomro,Hyderabad,25.39052,68.32825,Electrician,fan/light install;solar panel wiring,21,2025-01-17,543,14,8,4.81,2198,32,True,True,0.052,False
+W00203,Waseem Hussain,Peshawar,34.02244,71.52096,Masonry,flooring;plastering;brickwork,28,2024-08-04,709,37,19,4.68,746,113,True,True,0.089,False
+W00204,Rashid Baloch,Islamabad,33.70312,73.05246,Plumbing,pipe fitting;motor repair,33,2026-04-27,78,8,6,3.73,1727,35,False,True,0.026,False
+W00205,Usman Rajput,Lahore,31.53809,74.33467,Electrician,inverter/UPS install,30,2024-12-26,565,29,17,4.26,957,34,True,True,0.08,False
+W00206,Shahid Qureshi,Gujranwala,32.2064,74.21272,Mechanic,bike repair;AC repair;denting/painting,25,2023-06-27,1113,34,19,4.19,1840,151,True,True,0.027,False
+W00207,Irfan Abbasi,Islamabad,33.6686,72.99498,Plumbing,bathroom fitting;pipe fitting;leak repair,48,2026-04-21,84,4,2,4.8,2379,17,True,True,0.036,False
+W00208,Yasir Soomro,Peshawar,34.02436,71.48321,Carpentry,wardrobe making,34,2024-01-01,925,29,16,5.0,2089,8,True,True,0.01,False
+W00209,Tariq Malik,Rawalpindi,33.54013,72.99273,Electrician,fan/light install,51,2024-12-28,563,17,9,4.28,651,5,False,True,0.039,False
+W00210,Tariq Awan,Lahore,31.47584,74.33504,Carpentry,false ceiling;custom furniture,52,2026-06-27,17,1,0,,2060,30,False,False,0.059,True
+W00211,Javed Abbasi,Faisalabad,31.40987,73.06495,Carpentry,false ceiling,25,2024-11-15,606,22,17,4.85,1473,21,False,True,0.049,False
+W00212,Ahmed Soomro,Islamabad,33.6921,73.05574,Mechanic,oil change;AC repair,48,2023-10-09,1009,56,27,5.0,2461,11,False,True,0.01,False
+W00213,Zeeshan Abbasi,Multan,30.15951,71.47044,Carpentry,furniture repair,51,2025-04-17,453,11,5,3.56,773,38,True,True,0.052,False
+W00214,Shahid Soomro,Lahore,31.58541,74.28441,Masonry,brickwork,57,2023-03-30,1202,43,23,4.0,1121,36,True,True,0.036,False
+W00215,Muhammad Awan,Quetta,30.18672,66.9636,Electrician,AC electrical;solar panel wiring;fan/light install,34,2023-09-12,1036,14,6,3.73,583,25,True,True,0.001,False
+W00216,Ali Warraich,Islamabad,33.6388,73.1076,Plumbing,bathroom fitting;pipe fitting;leak repair,20,2026-06-17,27,0,0,,1033,5,True,True,0.01,True
+W00217,Usman Niazi,Karachi,24.94186,67.14645,Electrician,solar panel wiring,57,2024-11-25,596,14,6,4.07,875,56,True,True,0.079,False
+W00218,Javed Rajput,Gujranwala,32.15926,74.16582,Carpentry,polishing;furniture repair;false ceiling,42,2023-09-07,1041,40,33,4.54,1408,63,True,True,0.074,False
+W00219,Kashif Sheikh,Faisalabad,31.45099,73.07765,Masonry,plastering,44,2025-11-25,231,9,6,3.77,2139,58,True,False,0.056,False
+W00220,Ahmed Khan,Faisalabad,31.40152,73.05141,Electrician,AC electrical,35,2023-06-03,1137,58,46,4.53,1758,9,True,True,0.06,False
+W00221,Sajid Ansari,Islamabad,33.66367,73.01043,Masonry,waterproofing;plastering,25,2023-12-20,937,45,36,3.96,635,7,True,True,0.028,False
+W00222,Aftab Chaudhry,Lahore,31.56337,74.45554,Electrician,MCB/breaker;AC electrical,45,2025-06-04,405,22,14,4.93,690,19,True,False,0.041,False
+W00223,Rashid Gill,Islamabad,33.68457,73.05441,Masonry,flooring,42,2023-12-12,945,51,31,4.2,2601,31,False,True,0.104,False
+W00224,Yasir Sheikh,Karachi,24.99263,67.00004,Carpentry,wardrobe making,26,2024-07-05,739,30,18,3.36,2380,23,True,True,0.06,False
+W00225,Bilal Hussain,Karachi,24.8282,67.03543,Carpentry,custom furniture,35,2024-06-20,754,21,12,4.54,2651,5,True,True,0.078,False
+W00226,Faisal Abbasi,Hyderabad,25.39412,68.31349,Masonry,brickwork;boundary wall;flooring,29,2023-01-26,1265,45,37,3.15,1019,41,True,True,0.116,False
+W00227,Yasir Rajput,Karachi,24.85951,66.952,Plumbing,motor repair;drainage,28,2024-09-16,666,48,22,3.6,654,87,True,False,0.071,False
+W00228,Naveed Butt,Karachi,24.81401,67.11212,Carpentry,furniture repair;door/window fitting;wardrobe making,45,2023-09-22,1026,46,33,4.48,608,11,True,True,0.025,False
+W00229,Muhammad Qureshi,Karachi,24.81669,66.96236,Carpentry,custom furniture;false ceiling,51,2023-04-02,1199,83,33,4.66,986,43,True,True,0.094,False
+W00230,Irfan Butt,Lahore,31.61884,74.35368,Mechanic,oil change;bike repair;engine repair,57,2023-03-28,1204,25,16,4.31,2459,29,True,True,0.055,False
+W00231,Imran Rajput,Karachi,24.88326,66.95077,Plumbing,water tank install,39,2023-07-13,1097,26,11,4.11,2768,24,False,False,0.09,False
+W00232,Usman Rajput,Rawalpindi,33.57853,73.04521,Mechanic,denting/painting;AC repair,42,2025-10-20,267,11,6,3.12,1870,5,True,True,0.05,False
+W00233,Waseem Baloch,Karachi,24.81705,67.1284,Mechanic,oil change;electrical (auto);engine repair,32,2025-02-19,510,8,4,5.0,1305,6,True,True,0.126,False
+W00234,Ahmed Awan,Rawalpindi,33.57987,73.01335,Plumbing,drainage;bathroom fitting;leak repair,20,2025-11-23,233,8,3,4.61,1957,15,False,True,0.073,False
+W00235,Adnan Sheikh,Lahore,31.57968,74.35382,Electrician,inverter/UPS install;AC electrical;MCB/breaker,40,2023-02-02,1258,58,26,3.54,2222,18,True,False,0.077,False
+W00236,Ahmed Awan,Islamabad,33.67548,73.03345,Plumbing,leak repair;bathroom fitting,47,2026-02-25,139,9,5,3.85,1503,15,True,True,0.012,False
+W00237,Yasir Hussain,Lahore,31.56939,74.32426,Mechanic,oil change,39,2023-02-03,1257,48,29,3.4,1191,9,True,True,0.026,False
+W00238,Sajid Malik,Quetta,30.14308,66.9548,Mechanic,oil change;AC repair,42,2023-08-21,1058,48,36,4.94,973,8,True,False,0.053,False
+W00239,Javed Gill,Multan,30.16535,71.46941,Carpentry,wardrobe making,30,2023-07-14,1096,34,13,4.27,1040,19,True,True,0.039,False
+W00240,Yasir Qureshi,Quetta,30.15802,66.96468,Electrician,inverter/UPS install;MCB/breaker;wiring,34,2024-02-02,893,63,41,4.22,896,23,True,True,0.038,False
+W00241,Zeeshan Gill,Lahore,31.60579,74.33954,Masonry,tile fitting;boundary wall,31,2024-09-23,659,31,17,3.9,568,42,True,True,0.034,False
+W00242,Shahid Bhatti,Islamabad,33.67208,73.02802,Carpentry,polishing;door/window fitting;wardrobe making,22,2026-07-03,11,1,0,,557,28,False,True,0.274,True
+W00243,Zeeshan Sheikh,Lahore,31.54308,74.31998,Carpentry,door/window fitting;polishing;false ceiling,57,2023-11-08,979,53,23,4.51,1727,11,True,True,0.023,False
+W00244,Usman Malik,Faisalabad,31.41976,73.06662,Mechanic,denting/painting;AC repair;engine repair,24,2025-03-08,493,13,7,4.97,1074,48,True,False,0.007,False
+W00245,Yasir Ahmed,Karachi,24.81558,66.99121,Carpentry,wardrobe making;door/window fitting;custom furniture,21,2023-11-13,974,16,12,5.0,2208,66,True,True,0.067,False
+W00246,Ali Khan,Rawalpindi,33.56368,72.97276,Carpentry,polishing,45,2025-05-09,431,19,8,4.36,1436,9,True,False,0.053,False
+W00247,Javed Bhatti,Faisalabad,31.42931,73.07952,Mechanic,engine repair;bike repair,20,2025-05-21,419,13,9,4.81,975,41,True,True,0.061,False
+W00248,Shahid Malik,Lahore,31.57662,74.343,Carpentry,custom furniture;false ceiling;wardrobe making,42,2023-07-29,1081,42,32,5.0,641,29,True,False,0.096,False
+W00249,Kashif Khan,Karachi,24.88656,67.01486,Carpentry,polishing,54,2026-02-13,151,3,2,3.67,1260,8,True,False,0.003,False
+W00250,Shahid Sheikh,Karachi,24.92584,66.92264,Mechanic,electrical (auto);denting/painting;engine repair,40,2023-05-18,1153,86,60,4.07,1152,18,True,True,0.051,False
+W00251,Bilal Bhatti,Lahore,31.53525,74.25666,Electrician,solar panel wiring;fan/light install,43,2025-03-14,487,26,13,4.65,1246,28,True,True,0.143,False
+W00252,Irfan Bhatti,Multan,30.12253,71.52472,Masonry,plastering,40,2024-09-03,679,16,8,3.18,2085,8,True,True,0.16,False
+W00253,Muhammad Ansari,Peshawar,33.99929,71.50884,Masonry,flooring;plastering;boundary wall,57,2026-03-28,108,3,1,4.37,473,26,True,True,0.112,False
+W00254,Sajid Soomro,Lahore,31.54457,74.42571,Plumbing,drainage;bathroom fitting;pipe fitting,36,2026-07-10,4,0,0,,2527,44,False,True,0.038,True
+W00255,Adnan Niazi,Quetta,30.18327,67.00505,Carpentry,false ceiling,39,2024-11-08,613,31,14,5.0,1298,7,True,True,0.108,False
+W00256,Ali Niazi,Quetta,30.20735,67.01911,Masonry,flooring;brickwork,49,2025-01-31,529,16,10,4.07,547,36,True,True,0.226,False
+W00257,Zeeshan Baloch,Islamabad,33.7397,72.95416,Masonry,plastering;tile fitting;flooring,40,2026-03-18,118,4,2,4.31,632,9,True,True,0.011,False
+W00258,Zeeshan Raza,Karachi,24.78874,66.81248,Plumbing,water tank install;pipe fitting;motor repair,26,2026-04-07,98,4,2,3.91,1517,20,True,True,0.128,False
+W00259,Irfan Gill,Faisalabad,31.41576,73.05586,Electrician,AC electrical;fan/light install;inverter/UPS install,44,2023-01-08,1283,21,11,4.35,2495,69,True,False,0.304,False
+W00260,Sajid Gill,Karachi,24.89419,67.01019,Plumbing,water tank install;pipe fitting;bathroom fitting,41,2023-12-20,937,56,27,4.29,2289,11,True,True,0.039,False
+W00261,Adnan Qureshi,Rawalpindi,33.54929,73.04642,Plumbing,pipe fitting;leak repair,28,2025-01-16,544,25,20,4.59,896,9,True,True,0.004,False
+W00262,Bilal Baloch,Karachi,24.88603,66.98018,Carpentry,furniture repair;door/window fitting;custom furniture,45,2023-08-19,1060,39,27,5.0,2455,5,True,True,0.051,False
+W00263,Rashid Memon,Islamabad,33.67368,73.01264,Masonry,flooring;brickwork,32,2023-06-27,1113,44,21,3.18,762,7,False,True,0.055,False
+W00264,Shahid Awan,Rawalpindi,33.56301,73.01189,Plumbing,leak repair;drainage;bathroom fitting,33,2025-09-26,291,9,4,4.76,1310,26,True,True,0.08,False
+W00265,Naveed Abbasi,Karachi,24.87145,67.17255,Electrician,wiring;fan/light install,24,2023-07-13,1097,52,40,4.33,2137,28,False,True,0.043,False
+W00266,Adnan Bhatti,Peshawar,33.99527,71.49443,Plumbing,pipe fitting;bathroom fitting;water tank install,25,2024-10-15,637,44,23,4.46,1891,34,False,True,0.178,False
+W00267,Usman Niazi,Peshawar,34.01286,71.55153,Electrician,fan/light install;MCB/breaker;wiring,47,2024-02-22,873,55,44,4.12,979,42,True,True,0.014,False
+W00268,Imran Baloch,Quetta,30.17826,66.97657,Masonry,waterproofing;plastering,41,2025-10-12,275,7,4,4.79,2081,30,True,True,0.181,False
+W00269,Shahid Qureshi,Gujranwala,32.16595,74.17827,Masonry,brickwork;tile fitting;boundary wall,22,2023-11-02,985,52,37,4.54,1421,16,True,True,0.095,False
+W00270,Naveed Bhatti,Lahore,31.55093,74.32753,Mechanic,oil change,31,2024-02-13,882,54,32,3.45,2666,73,True,True,0.113,False
+W00271,Waseem Ansari,Hyderabad,25.37801,68.35115,Mechanic,electrical (auto),57,2023-05-13,1158,14,7,4.38,1141,16,True,True,0.075,False
+W00272,Naveed Qureshi,Peshawar,34.00696,71.53017,Electrician,solar panel wiring;fan/light install;wiring,22,2025-06-24,385,10,4,3.55,1011,52,True,True,0.115,False
+W00273,Aftab Butt,Karachi,24.86225,67.01208,Mechanic,bike repair,22,2025-02-24,505,16,6,4.02,571,25,True,True,0.062,False
+W00274,Tariq Gill,Faisalabad,31.44394,73.07,Masonry,tile fitting,53,2024-02-12,883,26,12,5.0,1285,61,True,False,0.037,False
+W00275,Muhammad Ansari,Lahore,31.58468,74.29592,Masonry,brickwork;plastering;boundary wall,34,2023-07-27,1083,32,17,4.45,1170,7,True,True,0.003,False
+W00276,Tariq Gill,Islamabad,33.61357,73.0682,Masonry,flooring;tile fitting;boundary wall,57,2023-08-14,1065,45,36,4.05,1465,53,True,True,0.039,False
+W00277,Zeeshan Raza,Karachi,24.83392,66.96389,Masonry,brickwork;tile fitting;plastering,48,2025-04-10,460,33,17,3.87,2452,13,True,True,0.059,False
+W00278,Kashif Sheikh,Karachi,24.85675,66.96727,Plumbing,motor repair,41,2023-05-31,1140,74,31,4.05,1200,23,True,True,0.098,False
+W00279,Bilal Gill,Rawalpindi,33.54336,73.02495,Mechanic,denting/painting;bike repair;electrical (auto),52,2023-08-14,1065,26,16,4.33,877,41,True,True,0.028,False
+W00280,Naveed Sheikh,Karachi,24.83512,66.84365,Electrician,MCB/breaker;solar panel wiring,40,2026-02-27,137,3,1,4.58,1883,31,True,False,0.02,False
+W00281,Waseem Chaudhry,Karachi,24.75221,66.87347,Plumbing,leak repair,20,2025-08-20,328,5,2,3.98,1676,28,True,True,0.049,False
+W00282,Ahmed Niazi,Islamabad,33.67713,73.03806,Mechanic,bike repair;denting/painting,31,2026-02-28,136,9,4,4.48,1568,21,True,True,0.119,False
+W00283,Yasir Soomro,Karachi,24.77453,67.12292,Carpentry,custom furniture;furniture repair;false ceiling,33,2026-03-21,115,2,1,5.0,1813,7,True,True,0.12,True
+W00284,Ali Qureshi,Lahore,31.5942,74.3246,Masonry,tile fitting,56,2026-03-26,110,4,2,4.6,1167,11,True,True,0.046,False
+W00285,Muhammad Niazi,Faisalabad,31.4308,73.11562,Masonry,tile fitting;plastering,51,2023-03-22,1210,38,30,3.52,1295,15,True,True,0.156,False
+W00286,Rashid Chaudhry,Lahore,31.60365,74.25951,Masonry,brickwork,56,2026-03-28,108,8,5,4.34,2840,11,True,True,0.076,False
+W00287,Ali Soomro,Islamabad,33.64775,73.08178,Masonry,boundary wall;flooring,56,2026-01-17,178,10,6,4.68,1139,20,True,True,0.06,False
+W00288,Adnan Hussain,Islamabad,33.69532,73.06691,Plumbing,water tank install;motor repair;bathroom fitting,55,2024-02-28,867,17,7,4.28,1913,124,True,True,0.056,False
+W00289,Adnan Baloch,Karachi,24.78054,67.02389,Plumbing,bathroom fitting,46,2025-06-15,394,24,13,4.31,1866,23,True,True,0.12,False
+W00290,Usman Baloch,Islamabad,33.68603,73.03872,Carpentry,furniture repair;false ceiling,35,2025-04-19,451,37,21,4.81,2015,8,True,False,0.055,False
+W00291,Muhammad Abbasi,Karachi,24.91003,67.0644,Mechanic,denting/painting;bike repair,42,2023-07-07,1103,77,39,5.0,2461,17,True,True,0.013,False
+W00292,Ali Chaudhry,Faisalabad,31.44209,73.09226,Plumbing,water tank install,39,2026-04-14,91,5,2,4.2,1831,11,True,True,0.052,False
+W00293,Irfan Niazi,Multan,30.13429,71.54609,Plumbing,drainage;water tank install;motor repair,24,2023-12-12,945,48,34,5.0,2415,8,True,True,0.155,False
+W00294,Shahid Raza,Faisalabad,31.4286,73.05856,Electrician,wiring,33,2025-11-20,236,16,9,4.27,1936,6,True,True,0.084,False
+W00295,Kashif Raza,Gujranwala,32.20288,74.2211,Mechanic,electrical (auto),39,2026-05-24,51,2,1,4.8,1969,13,False,True,0.072,True
+W00296,Bilal Malik,Gujranwala,32.20975,74.1733,Plumbing,motor repair,44,2023-05-18,1153,68,43,3.37,532,34,True,True,0.051,False
+W00297,Usman Butt,Lahore,31.50835,74.34336,Masonry,flooring;brickwork,54,2024-03-27,839,35,20,4.9,2060,10,True,False,0.048,False
+W00298,Sajid Abbasi,Peshawar,34.01357,71.51034,Plumbing,pipe fitting;motor repair,37,2024-10-15,637,11,6,5.0,612,14,True,True,0.135,False
+W00299,Irfan Rajput,Lahore,31.53632,74.42382,Mechanic,electrical (auto);engine repair,25,2024-07-26,718,18,9,4.71,938,58,True,True,0.114,False
+W00300,Waseem Qureshi,Rawalpindi,33.56523,73.0232,Mechanic,denting/painting,22,2025-02-21,508,17,11,4.34,2440,62,True,True,0.036,False
+W00301,Ahmed Baloch,Lahore,31.54078,74.34159,Plumbing,motor repair;pipe fitting;bathroom fitting,30,2024-01-26,900,31,25,4.55,880,21,True,True,0.029,False
+W00302,Javed Chaudhry,Lahore,31.57389,74.34331,Plumbing,bathroom fitting;motor repair,22,2026-01-17,178,8,5,3.62,1170,29,True,True,0.114,False
+W00303,Shahid Ansari,Hyderabad,25.3932,68.3383,Electrician,fan/light install,40,2024-06-17,757,33,14,4.02,1550,12,True,True,0.019,False
+W00304,Sajid Memon,Lahore,31.58323,74.31696,Plumbing,pipe fitting;water tank install,30,2025-03-19,482,12,8,3.69,1212,15,True,True,0.031,False
+W00305,Tariq Butt,Quetta,30.19357,66.99188,Plumbing,water tank install;leak repair;motor repair,38,2023-08-20,1059,27,18,4.05,501,15,True,True,0.109,False
+W00306,Irfan Khan,Lahore,31.52933,74.32344,Carpentry,wardrobe making;false ceiling;polishing,31,2026-02-13,151,6,4,4.57,1735,14,True,True,0.05,False
+W00307,Imran Memon,Peshawar,33.99423,71.47333,Electrician,wiring;inverter/UPS install;AC electrical,34,2024-04-11,824,35,16,3.74,1177,38,True,True,0.02,False
+W00308,Ali Bhatti,Karachi,24.82273,66.99072,Carpentry,furniture repair,33,2026-02-24,140,5,4,3.47,2448,8,True,True,0.071,False
+W00309,Faisal Hussain,Karachi,24.89797,67.06859,Carpentry,furniture repair;wardrobe making,57,2025-09-23,294,7,5,4.66,701,10,True,True,0.047,False
+W00310,Javed Raza,Peshawar,34.03691,71.53407,Masonry,flooring,54,2024-01-21,905,32,25,4.66,1686,31,False,True,0.013,False
+W00311,Adnan Raza,Karachi,24.88887,67.05638,Carpentry,false ceiling,48,2023-08-25,1054,74,32,5.0,1650,12,True,True,0.064,False
+W00312,Usman Butt,Karachi,24.90114,67.11619,Electrician,AC electrical;inverter/UPS install;fan/light install,46,2025-03-06,495,21,13,4.93,2168,48,True,True,0.023,False
+W00313,Faisal Gill,Quetta,30.14643,66.99313,Mechanic,bike repair;engine repair;denting/painting,43,2025-11-23,233,7,5,4.35,2305,27,True,True,0.11,False
+W00314,Rashid Baloch,Karachi,24.82189,67.03247,Mechanic,AC repair;electrical (auto);bike repair,29,2025-12-07,219,3,2,4.54,1184,7,True,True,0.034,False
+W00315,Faisal Khan,Islamabad,33.7301,73.06792,Carpentry,false ceiling;custom furniture,32,2025-06-04,405,11,7,5.0,2037,47,True,False,0.038,False
+W00316,Ahmed Khan,Karachi,24.801,67.01471,Masonry,waterproofing;plastering,23,2025-01-01,559,17,12,4.55,516,15,True,False,0.07,False
+W00317,Adnan Sheikh,Karachi,25.05149,67.01018,Carpentry,wardrobe making,28,2025-04-13,457,27,20,3.34,930,17,True,True,0.119,False
+W00318,Ali Rajput,Karachi,24.90664,67.06904,Mechanic,denting/painting;AC repair;bike repair,34,2023-12-29,928,23,19,3.4,1089,6,True,True,0.123,False
+W00319,Faisal Sheikh,Peshawar,34.01071,71.53241,Masonry,tile fitting,49,2023-05-31,1140,67,51,4.18,2075,23,False,True,0.134,False
+W00320,Shahid Chaudhry,Gujranwala,32.23847,74.20085,Electrician,wiring;fan/light install,40,2023-12-18,939,27,20,3.25,1378,5,True,True,0.016,False
+W00321,Javed Malik,Karachi,24.86239,66.97455,Electrician,fan/light install,23,2026-07-04,10,0,0,,1105,34,True,True,0.031,True
+W00322,Zeeshan Abbasi,Multan,30.15025,71.5161,Carpentry,furniture repair;polishing;door/window fitting,29,2023-02-18,1242,22,12,4.68,1357,7,True,True,0.041,False
+W00323,Ali Gill,Karachi,24.78094,67.00987,Plumbing,drainage,33,2023-07-20,1090,40,20,3.96,1958,31,True,True,0.039,False
+W00324,Tariq Awan,Lahore,31.54797,74.27227,Electrician,wiring;solar panel wiring;MCB/breaker,45,2023-07-26,1084,53,40,4.92,1344,5,True,False,0.165,False
+W00325,Adnan Sheikh,Quetta,30.17339,66.99319,Electrician,MCB/breaker,39,2024-04-30,805,42,19,4.23,528,51,True,False,0.078,False
+W00326,Aftab Warraich,Lahore,31.55858,74.34472,Masonry,plastering;waterproofing,39,2023-06-05,1135,14,10,5.0,2616,8,False,False,0.113,False
+W00327,Irfan Bhatti,Hyderabad,25.3913,68.37437,Carpentry,door/window fitting,48,2024-08-11,702,11,6,4.52,2036,10,True,True,0.054,False
+W00328,Adnan Ahmed,Karachi,24.9427,67.09857,Masonry,tile fitting,53,2023-02-05,1255,14,10,4.37,1432,7,True,True,0.331,False
+W00329,Naveed Ahmed,Islamabad,33.68096,73.07776,Mechanic,denting/painting,53,2023-03-06,1226,13,8,3.82,625,29,True,True,0.124,False
+W00330,Sajid Bhatti,Lahore,31.41077,74.40483,Mechanic,oil change;denting/painting;bike repair,47,2024-03-25,841,31,20,3.49,1363,5,True,True,0.053,False
+W00331,Shahid Bhatti,Karachi,24.9352,66.97654,Plumbing,motor repair;water tank install;pipe fitting,43,2026-06-01,43,1,0,,664,37,True,False,0.083,True
+W00332,Naveed Awan,Karachi,24.93898,67.00132,Plumbing,drainage,56,2023-03-14,1218,43,18,4.91,1751,7,True,True,0.039,False
+W00333,Ahmed Gill,Multan,30.17902,71.53057,Electrician,MCB/breaker;fan/light install;wiring,46,2023-08-25,1054,33,14,3.98,1765,60,True,False,0.02,False
+W00334,Faisal Hussain,Lahore,31.46766,74.37883,Mechanic,oil change;bike repair,30,2023-02-25,1235,24,15,3.94,2612,12,True,True,0.017,False
+W00335,Aftab Soomro,Peshawar,34.01718,71.50988,Mechanic,electrical (auto);bike repair;oil change,56,2024-07-02,742,53,30,4.38,1508,64,True,True,0.102,False
+W00336,Kashif Abbasi,Karachi,24.78002,67.04769,Electrician,fan/light install,57,2023-06-25,1115,26,15,3.85,1569,10,True,True,0.035,False
+W00337,Naveed Soomro,Multan,30.14535,71.50459,Plumbing,water tank install;motor repair,33,2023-02-11,1249,64,32,4.65,1860,14,True,True,0.011,False
+W00338,Shahid Raza,Karachi,24.70514,67.12443,Plumbing,drainage,36,2024-02-06,889,32,19,4.13,1309,8,True,True,0.176,False
+W00339,Zeeshan Ahmed,Multan,30.14968,71.51279,Mechanic,electrical (auto),31,2023-08-04,1075,21,16,3.81,1149,58,True,True,0.028,False
+W00340,Muhammad Warraich,Multan,30.14114,71.53514,Mechanic,engine repair;AC repair,51,2025-12-17,209,2,1,5.0,454,7,True,True,0.076,True
+W00341,Adnan Chaudhry,Gujranwala,32.18486,74.1979,Carpentry,polishing;furniture repair,39,2023-04-22,1179,70,58,3.32,1911,36,False,False,0.059,False
+W00342,Yasir Memon,Islamabad,33.66182,72.97922,Mechanic,electrical (auto);AC repair;bike repair,36,2023-09-21,1027,41,29,3.71,2509,13,True,True,0.017,False
+W00343,Yasir Chaudhry,Peshawar,34.01679,71.51376,Masonry,waterproofing;flooring,43,2025-06-30,379,16,9,5.0,1654,9,True,True,0.064,False
+W00344,Bilal Hussain,Islamabad,33.68554,72.96099,Masonry,plastering;flooring;boundary wall,57,2025-08-20,328,10,4,4.32,2646,11,True,True,0.065,False
+W00345,Naveed Niazi,Karachi,24.89264,66.98785,Masonry,plastering;flooring,55,2026-03-31,105,7,4,4.19,2558,13,True,True,0.031,False
+W00346,Ali Raza,Gujranwala,32.21196,74.21438,Carpentry,false ceiling;door/window fitting;wardrobe making,25,2024-01-02,924,19,10,4.5,2231,14,True,True,0.058,False
+W00347,Yasir Sheikh,Karachi,24.82093,66.99353,Carpentry,polishing;furniture repair,20,2025-03-18,483,10,7,4.14,1804,91,True,True,0.042,False
+W00348,Bilal Hussain,Peshawar,34.04439,71.50499,Mechanic,oil change;electrical (auto),43,2025-04-17,453,11,6,3.78,1850,10,True,True,0.041,False
+W00349,Ali Gill,Rawalpindi,33.57653,73.04707,Plumbing,leak repair;drainage;water tank install,24,2023-06-26,1114,38,30,4.96,1464,16,False,True,0.021,False
+W00350,Muhammad Sheikh,Multan,30.1352,71.52663,Mechanic,engine repair,23,2024-01-16,910,26,18,3.22,1919,35,True,True,0.17,False
+W00351,Zeeshan Soomro,Karachi,24.92015,67.12695,Plumbing,motor repair;pipe fitting;leak repair,36,2026-01-22,173,4,3,5.0,1299,64,True,False,0.122,False
+W00352,Ahmed Baloch,Quetta,30.16806,66.98153,Carpentry,wardrobe making,42,2026-07-02,12,0,0,,736,59,True,True,0.008,True
+W00353,Ali Ahmed,Karachi,24.77897,67.07643,Mechanic,bike repair;denting/painting,20,2026-02-05,159,6,2,4.42,1592,13,True,True,0.04,False
+W00354,Shahid Rajput,Rawalpindi,33.54268,73.04558,Plumbing,bathroom fitting,28,2026-07-13,1,0,0,,575,31,False,True,0.018,True
+W00355,Zeeshan Sheikh,Rawalpindi,33.55309,73.02027,Mechanic,electrical (auto);denting/painting;AC repair,56,2025-08-16,332,17,10,4.16,474,17,True,True,0.273,False
+W00356,Javed Gill,Lahore,31.57077,74.34009,Masonry,plastering;flooring,47,2026-01-06,189,4,3,4.95,1849,9,True,False,0.111,False
+W00357,Bilal Chaudhry,Karachi,24.8218,67.10659,Plumbing,water tank install;drainage;motor repair,41,2025-09-04,313,22,10,4.97,468,58,False,True,0.044,False
+W00358,Javed Niazi,Karachi,24.93523,66.98536,Mechanic,oil change;engine repair,24,2023-05-01,1170,36,26,5.0,993,10,True,True,0.036,False
+W00359,Ahmed Ansari,Lahore,31.54929,74.32092,Carpentry,false ceiling,57,2026-01-03,192,3,1,4.44,2009,39,True,True,0.043,False
+W00360,Ahmed Soomro,Multan,30.1732,71.52831,Mechanic,bike repair;oil change,48,2023-06-07,1133,65,26,3.33,1111,15,True,True,0.052,False
+W00361,Shahid Gill,Islamabad,33.74186,73.06997,Mechanic,electrical (auto);bike repair,35,2024-11-08,613,23,19,4.63,1262,70,True,False,0.049,False
+W00362,Tariq Bhatti,Peshawar,34.04429,71.55871,Masonry,waterproofing,57,2024-04-19,816,25,17,4.15,2272,5,True,True,0.069,False
+W00363,Aftab Ansari,Peshawar,33.9945,71.53457,Mechanic,AC repair;bike repair;oil change,41,2026-02-16,148,6,3,3.16,1569,13,True,False,0.187,False
+W00364,Naveed Memon,Gujranwala,32.18134,74.16333,Mechanic,engine repair;electrical (auto),43,2023-07-22,1088,29,19,4.79,1953,29,True,True,0.051,False
+W00365,Rashid Raza,Karachi,24.89839,66.98692,Masonry,tile fitting,28,2023-02-14,1246,40,30,4.48,2381,5,False,True,0.011,False
+W00366,Ahmed Raza,Karachi,24.79181,66.9736,Mechanic,AC repair;oil change;engine repair,27,2023-01-11,1280,16,10,3.29,500,7,True,False,0.121,False
+W00367,Sajid Khan,Karachi,24.88369,67.10419,Masonry,waterproofing;boundary wall;plastering,33,2023-02-26,1234,67,36,3.93,1608,35,True,True,0.091,False
+W00368,Adnan Gill,Lahore,31.5468,74.37478,Mechanic,engine repair,41,2024-12-07,584,22,12,5.0,2042,18,True,True,0.037,False
+W00369,Kashif Sheikh,Multan,30.14099,71.52223,Electrician,fan/light install,31,2024-12-17,574,26,12,4.0,1435,20,False,True,0.057,False
+W00370,Usman Abbasi,Lahore,31.53767,74.31525,Mechanic,denting/painting,20,2024-03-12,854,16,10,3.37,2800,37,False,True,0.086,False
+W00371,Yasir Rajput,Lahore,31.60328,74.25308,Mechanic,oil change,29,2025-08-18,330,14,11,4.06,594,22,False,False,0.121,False
+W00372,Tariq Rajput,Lahore,31.51758,74.33673,Mechanic,oil change,50,2024-06-22,752,16,9,3.66,1023,36,True,True,0.059,False
+W00373,Tariq Memon,Lahore,31.52479,74.28924,Mechanic,AC repair,53,2024-10-29,623,9,6,5.0,2034,13,True,False,0.015,False
+W00374,Naveed Rajput,Quetta,30.17872,67.01037,Mechanic,AC repair;electrical (auto),52,2024-02-20,875,11,5,4.74,1663,22,True,True,0.036,False
+W00375,Usman Gill,Karachi,24.96781,67.06158,Plumbing,leak repair;drainage;bathroom fitting,36,2026-06-27,17,1,0,,2245,27,False,True,0.064,True
+W00376,Waseem Khan,Lahore,31.53124,74.3784,Masonry,brickwork;plastering,46,2024-10-18,634,15,12,3.73,1043,22,True,True,0.046,False
+W00377,Shahid Hussain,Lahore,31.64331,74.34122,Electrician,wiring,55,2025-07-02,377,15,8,3.83,2185,36,False,True,0.162,False
+W00378,Naveed Soomro,Karachi,24.95285,66.97914,Plumbing,bathroom fitting;leak repair;drainage,45,2024-12-10,581,26,12,4.52,691,53,True,True,0.18,False
+W00379,Tariq Malik,Lahore,31.62571,74.31974,Mechanic,AC repair,22,2024-12-24,567,11,4,4.04,1082,34,True,True,0.222,False
+W00380,Sajid Rajput,Gujranwala,32.14811,74.14335,Carpentry,polishing,42,2026-03-09,127,5,3,4.48,411,22,True,False,0.047,False
+W00381,Naveed Sheikh,Peshawar,33.95299,71.45343,Masonry,brickwork;flooring;tile fitting,57,2024-03-11,855,25,16,3.9,2289,5,True,True,0.223,False
+W00382,Shahid Qureshi,Karachi,24.95349,67.00568,Masonry,flooring,32,2026-04-10,95,2,1,4.76,1246,14,True,False,0.111,True
+W00383,Muhammad Raza,Lahore,31.55576,74.2583,Mechanic,electrical (auto);engine repair;AC repair,34,2023-07-01,1109,47,19,3.93,1369,58,True,False,0.011,False
+W00384,Faisal Qureshi,Hyderabad,25.39785,68.33373,Plumbing,motor repair;drainage,24,2024-08-18,695,14,10,5.0,780,16,True,True,0.026,False
+W00385,Shahid Soomro,Lahore,31.48449,74.4138,Plumbing,motor repair,33,2023-10-31,987,12,7,3.62,568,44,True,True,0.046,False
+W00386,Kashif Sheikh,Rawalpindi,33.54574,73.00229,Electrician,MCB/breaker;solar panel wiring,57,2026-03-02,134,4,3,5.0,2495,24,True,False,0.119,False
+W00387,Ali Khan,Karachi,24.84043,67.03838,Plumbing,motor repair;drainage,27,2025-05-23,417,9,6,4.59,1807,11,False,True,0.12,False
+W00388,Waseem Ahmed,Hyderabad,25.38481,68.34886,Mechanic,electrical (auto);denting/painting;AC repair,45,2025-01-26,534,21,17,3.64,813,16,True,True,0.102,False
+W00389,Javed Raza,Karachi,24.86527,67.02934,Electrician,inverter/UPS install;solar panel wiring;wiring,34,2026-06-09,35,1,0,,2125,40,True,True,0.055,True
+W00390,Sajid Rajput,Karachi,24.8371,67.01021,Mechanic,electrical (auto);denting/painting;oil change,40,2024-12-15,576,26,14,3.64,2831,27,True,True,0.06,False
+W00391,Muhammad Butt,Faisalabad,31.40718,73.06674,Electrician,wiring;AC electrical;solar panel wiring,29,2025-02-14,515,19,13,4.7,849,13,True,True,0.083,False
+W00392,Tariq Memon,Multan,30.16961,71.56599,Masonry,boundary wall;flooring;waterproofing,40,2024-01-26,900,18,12,4.49,1714,7,True,True,0.04,False
+W00393,Zeeshan Butt,Islamabad,33.61226,73.04505,Electrician,solar panel wiring,45,2023-09-12,1036,59,37,4.15,1758,8,True,False,0.138,False
+W00394,Naveed Bhatti,Quetta,30.20005,66.97296,Plumbing,bathroom fitting;drainage;motor repair,26,2024-12-26,565,10,6,4.46,1909,10,True,True,0.07,False
+W00395,Tariq Abbasi,Karachi,24.80178,67.06052,Electrician,inverter/UPS install,21,2024-04-20,815,28,19,3.68,650,14,True,True,0.067,False
+W00396,Adnan Warraich,Islamabad,33.65768,73.02221,Plumbing,motor repair;pipe fitting;water tank install,20,2025-10-12,275,5,2,5.0,1567,16,True,True,0.033,False
+W00397,Ahmed Baloch,Karachi,24.91908,67.0272,Masonry,waterproofing,56,2023-12-24,933,31,17,4.45,1638,11,False,True,0.063,False
+W00398,Waseem Qureshi,Islamabad,33.68997,73.00233,Masonry,plastering;waterproofing;flooring,24,2024-09-06,676,13,6,5.0,1639,38,True,True,0.052,False
+W00399,Sajid Baloch,Rawalpindi,33.57055,73.03298,Electrician,fan/light install;inverter/UPS install,21,2023-08-26,1053,14,11,4.12,2164,22,True,True,0.04,False
+W00400,Javed Gill,Gujranwala,32.20248,74.20525,Carpentry,door/window fitting;polishing,38,2024-05-03,802,37,27,4.0,472,11,True,True,0.029,False
+W00401,Yasir Ansari,Rawalpindi,33.56283,72.99356,Masonry,brickwork;boundary wall,26,2026-07-13,1,0,0,,1074,29,False,True,0.017,True
+W00402,Bilal Qureshi,Rawalpindi,33.55607,73.04523,Plumbing,motor repair;drainage;water tank install,27,2023-05-03,1168,56,27,4.87,602,7,True,True,0.075,False
+W00403,Waseem Ahmed,Multan,30.1458,71.50229,Mechanic,bike repair;oil change,23,2025-04-15,455,17,10,4.78,869,53,False,False,0.114,False
+W00404,Ahmed Memon,Lahore,31.5227,74.3744,Electrician,wiring;fan/light install,43,2023-11-06,981,28,23,4.2,2408,9,True,True,0.141,False
+W00405,Ahmed Ahmed,Karachi,24.86327,66.9074,Mechanic,oil change,34,2023-08-21,1058,60,45,4.74,1394,10,True,True,0.045,False
+W00406,Tariq Khan,Gujranwala,32.17539,74.19778,Plumbing,motor repair;bathroom fitting,36,2024-01-14,912,45,21,3.9,2499,51,True,False,0.023,False
+W00407,Zeeshan Rajput,Multan,30.14622,71.52453,Electrician,fan/light install;MCB/breaker,43,2025-08-02,346,12,9,4.73,441,7,True,True,0.047,False
+W00408,Imran Rajput,Karachi,24.8489,67.00424,Electrician,wiring;AC electrical;inverter/UPS install,43,2023-08-11,1068,13,5,4.99,1684,131,True,True,0.02,False
+W00409,Zeeshan Gill,Rawalpindi,33.58301,73.00187,Carpentry,door/window fitting;wardrobe making,40,2024-11-17,604,5,3,4.79,1075,28,False,False,0.024,False
+W00410,Ali Memon,Karachi,24.85653,66.95352,Carpentry,false ceiling;furniture repair,40,2025-03-28,473,41,23,3.89,2639,5,True,True,0.047,False
+W00411,Tariq Warraich,Karachi,24.86177,67.01215,Carpentry,wardrobe making;polishing,43,2026-07-11,3,0,0,,2647,48,False,True,0.083,True
+W00412,Javed Niazi,Karachi,24.91612,66.89609,Mechanic,electrical (auto),36,2026-06-24,20,3,1,4.61,2314,16,False,True,0.056,True
+W00413,Irfan Ansari,Quetta,30.2135,66.99256,Masonry,flooring;brickwork,40,2024-02-17,878,36,21,4.57,2293,6,True,True,0.098,False
+W00414,Imran Abbasi,Lahore,31.55009,74.22676,Mechanic,engine repair;electrical (auto);denting/painting,22,2026-05-09,66,1,0,,1250,58,True,True,0.06,True
+W00415,Aftab Ansari,Karachi,24.86791,67.02781,Plumbing,leak repair;pipe fitting;drainage,49,2023-02-22,1238,35,26,4.28,1480,40,True,False,0.074,False
+W00416,Tariq Gill,Islamabad,33.68023,73.05183,Carpentry,door/window fitting;wardrobe making,21,2026-07-03,11,1,0,,1736,17,False,False,0.018,True
+W00417,Zeeshan Khan,Karachi,24.82989,66.89367,Masonry,tile fitting;boundary wall,34,2025-05-18,422,12,7,4.19,1056,13,True,False,0.108,False
+W00418,Yasir Warraich,Peshawar,34.03751,71.52179,Carpentry,polishing,34,2024-07-05,739,24,13,4.6,2036,17,True,True,0.056,False
+W00419,Usman Hussain,Islamabad,33.66263,72.99796,Electrician,MCB/breaker;inverter/UPS install,49,2026-01-18,177,3,1,3.74,2041,40,True,True,0.061,False
+W00420,Yasir Niazi,Lahore,31.56348,74.37785,Electrician,solar panel wiring;wiring,41,2024-10-16,636,28,18,4.6,2419,16,True,False,0.009,False
+W00421,Irfan Memon,Peshawar,34.02804,71.46424,Masonry,boundary wall;flooring,51,2024-12-30,561,27,14,4.25,1927,15,False,True,0.076,False
+W00422,Usman Butt,Faisalabad,31.43709,73.05307,Mechanic,AC repair;bike repair,54,2023-09-16,1032,54,40,4.1,868,32,False,True,0.152,False
+W00423,Rashid Rajput,Karachi,24.86027,66.96857,Electrician,solar panel wiring;inverter/UPS install;MCB/breaker,56,2024-06-16,758,40,31,4.14,930,41,True,True,0.15,False
+W00424,Muhammad Memon,Karachi,24.90558,66.9851,Plumbing,leak repair;drainage;motor repair,33,2023-06-21,1119,54,35,3.48,2051,40,True,True,0.036,False
+W00425,Imran Ahmed,Lahore,31.58281,74.32309,Electrician,solar panel wiring;wiring,29,2023-07-09,1101,66,46,3.72,1089,93,True,True,0.048,False
+W00426,Kashif Hussain,Karachi,24.79422,66.97631,Mechanic,electrical (auto),54,2024-10-16,636,14,9,3.75,1627,8,True,True,0.172,False
+W00427,Zeeshan Hussain,Lahore,31.51942,74.34493,Carpentry,false ceiling;custom furniture;door/window fitting,52,2024-10-06,646,34,16,3.89,540,5,True,True,0.025,False
+W00428,Muhammad Sheikh,Islamabad,33.69295,73.02165,Carpentry,custom furniture,33,2023-12-19,938,12,5,4.54,988,35,True,True,0.049,False
+W00429,Imran Ahmed,Islamabad,33.67073,73.10644,Masonry,flooring,39,2023-04-06,1195,72,49,4.75,2765,14,True,False,0.068,False
+W00430,Rashid Awan,Lahore,31.57717,74.24029,Electrician,wiring;fan/light install;AC electrical,50,2026-03-07,129,10,5,4.46,1174,37,True,True,0.001,False
+W00431,Ali Bhatti,Karachi,24.7828,66.93092,Masonry,waterproofing;plastering;boundary wall,20,2023-08-05,1074,38,25,4.39,1459,23,False,True,0.018,False
+W00432,Shahid Butt,Karachi,24.85842,67.03434,Plumbing,leak repair,38,2026-04-28,77,1,0,,847,24,True,False,0.256,True
+W00433,Bilal Awan,Islamabad,33.69332,73.04158,Carpentry,false ceiling,35,2025-10-03,284,24,13,4.0,2808,66,True,False,0.018,False
+W00434,Rashid Rajput,Karachi,24.80854,67.03484,Electrician,solar panel wiring,56,2024-03-13,853,17,14,3.85,1130,5,True,True,0.023,False
+W00435,Sajid Awan,Karachi,24.89963,66.93892,Mechanic,electrical (auto),23,2025-05-23,417,12,5,4.56,1457,14,True,True,0.112,False
+W00436,Javed Soomro,Islamabad,33.72628,73.05703,Mechanic,AC repair;engine repair;denting/painting,41,2024-02-16,879,16,9,5.0,870,29,True,True,0.061,False
+W00437,Naveed Warraich,Faisalabad,31.40764,73.05921,Masonry,brickwork;boundary wall;waterproofing,34,2024-05-22,783,52,42,3.52,1039,26,False,True,0.025,False
+W00438,Bilal Khan,Quetta,30.17525,66.97444,Plumbing,pipe fitting;motor repair,48,2024-06-16,758,16,9,4.29,418,14,False,False,0.042,False
+W00439,Shahid Hussain,Faisalabad,31.41789,73.06621,Mechanic,denting/painting;bike repair;AC repair,48,2026-04-27,78,1,0,,536,31,False,True,0.118,True
+W00440,Naveed Warraich,Rawalpindi,33.58487,73.03223,Electrician,inverter/UPS install;AC electrical;wiring,27,2023-08-20,1059,62,25,3.72,1661,30,True,True,0.089,False
+W00441,Shahid Ahmed,Multan,30.13813,71.48582,Plumbing,pipe fitting,21,2024-05-27,778,38,27,4.84,1147,22,True,True,0.025,False
+W00442,Naveed Niazi,Peshawar,34.03303,71.52281,Electrician,wiring,48,2024-06-25,749,29,14,4.5,1670,28,True,True,0.04,False
+W00443,Aftab Niazi,Karachi,24.90127,66.98922,Electrician,AC electrical,41,2025-03-15,486,39,19,3.82,1795,11,True,True,0.071,False
+W00444,Aftab Malik,Gujranwala,32.18507,74.22909,Plumbing,drainage;motor repair;water tank install,48,2025-06-09,400,18,14,4.05,1532,13,True,True,0.05,False
+W00445,Faisal Rajput,Karachi,25.02011,66.91654,Electrician,wiring;solar panel wiring,47,2025-10-31,256,17,13,4.51,1967,10,True,True,0.065,False
+W00446,Shahid Baloch,Karachi,24.84952,66.89998,Masonry,plastering;flooring;boundary wall,26,2024-05-28,777,27,13,4.4,1845,33,True,True,0.076,False
+W00447,Adnan Khan,Lahore,31.5563,74.36994,Plumbing,motor repair,54,2023-07-30,1080,73,36,3.83,2617,12,False,True,0.112,False
+W00448,Faisal Gill,Peshawar,33.9475,71.50211,Electrician,MCB/breaker,38,2026-05-02,73,0,0,,1221,8,True,True,0.022,True
+W00449,Shahid Abbasi,Karachi,24.83621,66.94387,Electrician,wiring;fan/light install,34,2024-04-18,817,22,16,4.2,838,45,True,True,0.095,False
+W00450,Zeeshan Qureshi,Peshawar,33.99201,71.55346,Electrician,wiring,22,2025-02-04,525,18,8,4.38,1133,15,True,False,0.126,False
+W00451,Ahmed Malik,Karachi,24.84788,66.96902,Electrician,fan/light install;wiring;solar panel wiring,51,2023-01-04,1287,45,22,4.89,747,30,True,True,0.02,False
+W00452,Shahid Sheikh,Rawalpindi,33.54291,73.03629,Plumbing,water tank install;leak repair,55,2024-12-06,585,44,26,4.69,533,19,False,True,0.116,False
+W00453,Imran Awan,Gujranwala,32.17137,74.1903,Electrician,inverter/UPS install;solar panel wiring;MCB/breaker,35,2023-04-14,1187,46,35,4.74,1940,6,True,True,0.119,False
+W00454,Zeeshan Warraich,Peshawar,34.00941,71.53526,Electrician,wiring,24,2023-03-07,1225,87,42,4.15,1816,10,False,True,0.034,False
+W00455,Irfan Baloch,Multan,30.17398,71.57592,Carpentry,wardrobe making;door/window fitting;furniture repair,53,2023-06-04,1136,57,33,3.77,1251,13,True,True,0.03,False
+W00456,Imran Ansari,Lahore,31.56131,74.26292,Plumbing,water tank install;drainage;pipe fitting,33,2024-02-08,887,21,13,4.57,1540,7,True,True,0.04,False
+W00457,Sajid Gill,Lahore,31.55227,74.362,Carpentry,wardrobe making;polishing;custom furniture,45,2025-01-28,532,41,19,3.82,2104,52,True,True,0.118,False
+W00458,Faisal Niazi,Lahore,31.49472,74.2886,Electrician,inverter/UPS install,39,2023-05-01,1170,40,33,5.0,2367,12,False,True,0.063,False
+W00459,Usman Baloch,Faisalabad,31.42009,73.07464,Carpentry,door/window fitting,37,2024-06-26,748,55,40,3.47,1266,11,True,True,0.083,False
+W00460,Javed Warraich,Lahore,31.61515,74.35293,Electrician,AC electrical,31,2026-06-10,34,0,0,,2615,17,False,False,0.093,True
+W00461,Bilal Butt,Hyderabad,25.39508,68.3604,Electrician,wiring,25,2024-10-11,641,24,18,4.74,994,14,True,True,0.045,False
+W00462,Muhammad Gill,Rawalpindi,33.57595,73.02765,Masonry,brickwork;plastering,40,2025-09-25,292,25,18,4.08,2356,31,False,True,0.033,False
+W00463,Javed Baloch,Quetta,30.1781,66.96878,Masonry,flooring;tile fitting;brickwork,43,2025-09-30,287,9,7,4.63,2350,21,True,True,0.001,False
+W00464,Usman Awan,Karachi,24.85209,66.88978,Electrician,AC electrical,56,2025-11-24,232,14,9,4.17,2710,66,True,True,0.171,False
+W00465,Naveed Gill,Karachi,24.85493,66.90789,Mechanic,denting/painting;bike repair;engine repair,33,2026-06-10,34,2,1,4.24,2028,45,False,True,0.055,True
+W00466,Irfan Ahmed,Peshawar,33.95939,71.47393,Electrician,MCB/breaker;wiring;solar panel wiring,44,2026-01-23,172,9,7,4.36,946,18,True,True,0.005,False
+W00467,Sajid Awan,Lahore,31.4517,74.33879,Masonry,plastering,28,2024-07-18,726,31,13,5.0,645,29,True,True,0.017,False
+W00468,Bilal Sheikh,Lahore,31.57463,74.28641,Plumbing,pipe fitting;drainage,27,2025-05-04,436,12,6,4.64,2220,26,True,True,0.045,False
+W00469,Sajid Qureshi,Karachi,24.80581,67.04042,Plumbing,pipe fitting,29,2025-02-14,515,14,5,4.32,1452,23,True,True,0.041,False
+W00470,Adnan Sheikh,Islamabad,33.68705,73.05505,Electrician,MCB/breaker,42,2024-11-23,598,7,4,4.63,2750,27,True,True,0.221,False
+W00471,Ali Abbasi,Karachi,24.89099,66.9844,Mechanic,oil change;engine repair,31,2023-12-26,931,75,52,4.1,1900,50,True,True,0.025,False
+W00472,Usman Chaudhry,Lahore,31.56996,74.31799,Plumbing,leak repair;water tank install;motor repair,47,2025-09-28,289,10,7,4.61,767,15,True,True,0.1,False
+W00473,Yasir Bhatti,Peshawar,34.00693,71.50929,Electrician,fan/light install;inverter/UPS install,38,2024-09-23,659,12,5,4.04,841,13,True,True,0.068,False
+W00474,Kashif Raza,Hyderabad,25.37346,68.3588,Mechanic,denting/painting;AC repair,31,2025-10-12,275,10,6,4.3,1435,94,True,True,0.095,False
+W00475,Aftab Baloch,Lahore,31.52762,74.42115,Carpentry,door/window fitting,21,2024-11-15,606,20,10,4.81,2355,10,True,True,0.057,False
+W00476,Ahmed Memon,Multan,30.17747,71.50462,Plumbing,bathroom fitting,53,2025-10-01,286,15,11,5.0,899,6,True,True,0.14,False
+W00477,Usman Gill,Karachi,24.9156,66.99333,Masonry,tile fitting;boundary wall;flooring,23,2024-06-27,747,30,25,4.37,2091,21,True,True,0.006,False
+W00478,Aftab Bhatti,Quetta,30.13774,66.97574,Masonry,plastering;waterproofing,56,2025-07-26,353,13,6,4.23,846,20,True,True,0.106,False
+W00479,Adnan Sheikh,Faisalabad,31.38859,73.12713,Mechanic,AC repair,42,2026-05-26,49,6,4,2.73,2239,9,False,True,0.09,False
+W00480,Kashif Abbasi,Lahore,31.49047,74.33432,Masonry,waterproofing;boundary wall,33,2023-04-16,1185,62,44,4.07,815,25,True,True,0.122,False
+W00481,Sajid Ansari,Gujranwala,32.19769,74.18788,Plumbing,drainage,32,2023-06-24,1116,51,40,4.97,834,15,True,False,0.007,False
+W00482,Yasir Chaudhry,Islamabad,33.69419,73.05417,Masonry,boundary wall;plastering,57,2025-04-16,454,25,18,4.41,2584,9,True,True,0.161,False
+W00483,Zeeshan Awan,Quetta,30.11329,66.96738,Electrician,fan/light install,41,2025-02-11,518,32,16,4.01,901,13,True,True,0.047,False
+W00484,Muhammad Butt,Hyderabad,25.40883,68.38113,Carpentry,wardrobe making;custom furniture;polishing,48,2024-06-08,766,42,23,4.66,1251,24,True,True,0.048,False
+W00485,Bilal Ansari,Lahore,31.60857,74.34815,Mechanic,oil change,53,2024-03-20,846,31,25,3.88,1934,15,True,False,0.111,False
+W00486,Javed Malik,Faisalabad,31.38638,73.09677,Mechanic,engine repair;denting/painting,36,2023-06-28,1112,26,11,4.8,731,11,True,True,0.021,False
+W00487,Imran Soomro,Gujranwala,32.19505,74.1939,Plumbing,bathroom fitting;water tank install,55,2025-03-08,493,12,7,4.54,1461,12,False,True,0.122,False
+W00488,Yasir Niazi,Hyderabad,25.42413,68.36327,Plumbing,motor repair,55,2023-02-10,1250,84,53,4.67,2135,15,True,True,0.015,False
+W00489,Tariq Baloch,Gujranwala,32.19647,74.19767,Mechanic,electrical (auto);AC repair;denting/painting,47,2024-04-16,819,40,24,3.58,2234,6,True,True,0.05,False
+W00490,Imran Khan,Rawalpindi,33.57728,73.00759,Electrician,MCB/breaker;AC electrical;fan/light install,23,2024-08-01,712,44,36,4.78,1223,28,True,True,0.173,False
+W00491,Ahmed Qureshi,Multan,30.14702,71.52284,Carpentry,door/window fitting,37,2025-12-02,224,1,0,,1236,73,True,True,0.099,True
+W00492,Naveed Ansari,Faisalabad,31.37336,73.07586,Mechanic,AC repair;denting/painting;engine repair,45,2024-04-15,820,34,17,3.66,1225,7,True,False,0.083,False
+W00493,Usman Bhatti,Karachi,24.71506,67.02455,Plumbing,pipe fitting;leak repair,30,2025-12-12,214,19,14,4.57,1325,17,True,True,0.171,False
+W00494,Ahmed Malik,Gujranwala,32.22865,74.19401,Mechanic,electrical (auto);AC repair,20,2025-11-21,235,11,4,4.51,595,11,True,True,0.025,False
+W00495,Naveed Bhatti,Karachi,24.95509,67.0307,Mechanic,electrical (auto);denting/painting;bike repair,55,2024-08-18,695,21,12,3.96,2220,9,True,False,0.033,False
+W00496,Tariq Gill,Rawalpindi,33.52706,73.03197,Plumbing,motor repair;drainage,21,2025-12-26,200,9,6,4.48,596,19,True,True,0.063,False
+W00497,Shahid Memon,Karachi,24.83174,66.98342,Carpentry,furniture repair;wardrobe making,30,2024-07-15,729,40,16,5.0,1550,18,True,True,0.151,False
+W00498,Zeeshan Butt,Karachi,24.72702,66.97902,Carpentry,polishing,55,2024-06-09,765,30,19,4.84,1937,7,True,True,0.05,False
+W00499,Sajid Chaudhry,Rawalpindi,33.56289,72.97551,Carpentry,wardrobe making,48,2024-09-20,662,31,18,3.89,2466,97,False,True,0.163,False
+W00500,Usman Chaudhry,Quetta,30.16587,66.98576,Mechanic,denting/painting;AC repair,37,2023-11-30,957,30,15,3.33,741,91,True,True,0.037,False
+W00501,Muhammad Chaudhry,Rawalpindi,33.52132,72.97418,Masonry,plastering,50,2026-05-04,71,1,0,,1962,63,False,True,0.044,True
+W00502,Sajid Niazi,Quetta,30.15579,66.96635,Mechanic,oil change;AC repair;engine repair,50,2025-12-01,225,18,10,3.85,1654,6,True,True,0.021,False
+W00503,Javed Ansari,Multan,30.17357,71.52606,Electrician,fan/light install;solar panel wiring;AC electrical,20,2024-04-27,808,36,24,4.06,1120,14,True,False,0.015,False
+W00504,Faisal Khan,Lahore,31.5924,74.5154,Mechanic,bike repair;denting/painting,38,2023-05-26,1145,67,48,4.65,2650,62,True,True,0.072,False
+W00505,Naveed Chaudhry,Karachi,24.92375,66.96119,Plumbing,pipe fitting;bathroom fitting,22,2024-02-09,886,55,34,4.84,1813,24,True,True,0.041,False
+W00506,Bilal Butt,Rawalpindi,33.55755,73.06688,Electrician,wiring;MCB/breaker;solar panel wiring,40,2026-04-19,86,3,1,4.71,2171,18,True,True,0.124,False
+W00507,Adnan Ansari,Peshawar,34.02578,71.50716,Carpentry,custom furniture;polishing,37,2026-02-18,146,4,2,4.82,1493,7,True,True,0.038,False
+W00508,Ahmed Raza,Karachi,24.88892,66.93931,Carpentry,false ceiling;wardrobe making,57,2024-02-07,888,11,7,4.28,2145,6,True,True,0.017,False
+W00509,Muhammad Niazi,Gujranwala,32.15186,74.20188,Masonry,brickwork;tile fitting,41,2025-02-20,509,12,10,4.3,2497,18,True,True,0.018,False
+W00510,Adnan Soomro,Karachi,24.79722,66.99274,Mechanic,electrical (auto);denting/painting;oil change,53,2026-02-17,147,5,3,4.41,2544,19,True,True,0.025,False
+W00511,Waseem Memon,Lahore,31.45143,74.27855,Masonry,flooring;waterproofing;brickwork,50,2023-06-13,1127,60,33,4.68,1429,25,True,False,0.044,False
+W00512,Kashif Memon,Karachi,24.6649,66.97453,Electrician,AC electrical;fan/light install,44,2023-06-28,1112,45,28,4.57,1557,20,True,True,0.067,False
+W00513,Tariq Khan,Multan,30.13952,71.49655,Plumbing,pipe fitting;water tank install,27,2024-01-21,905,42,26,4.34,2378,6,True,True,0.057,False
+W00514,Waseem Ansari,Karachi,24.74797,67.04771,Masonry,boundary wall;flooring,27,2026-02-05,159,1,0,,1028,12,True,True,0.123,True
+W00515,Bilal Raza,Hyderabad,25.41215,68.32556,Masonry,tile fitting,55,2026-06-11,33,1,0,,2428,22,False,True,0.016,True
+W00516,Bilal Soomro,Karachi,24.81016,67.02706,Electrician,AC electrical;wiring,43,2024-05-26,779,60,26,3.84,719,22,True,True,0.018,False
+W00517,Ahmed Raza,Karachi,24.87269,66.90013,Mechanic,AC repair,51,2023-04-05,1196,52,39,4.06,2595,33,True,True,0.031,False
+W00518,Sajid Bhatti,Karachi,24.83594,66.9228,Mechanic,AC repair,31,2024-10-18,634,15,9,4.22,1652,64,True,False,0.005,False
+W00519,Muhammad Niazi,Karachi,24.96135,67.04349,Mechanic,engine repair;electrical (auto),56,2024-11-06,615,24,17,4.23,2679,10,True,True,0.049,False
+W00520,Rashid Soomro,Lahore,31.53908,74.31057,Carpentry,wardrobe making;custom furniture,29,2025-05-20,420,7,3,4.01,2194,5,True,True,0.037,False
+W00521,Irfan Chaudhry,Lahore,31.4697,74.38157,Carpentry,custom furniture;wardrobe making,48,2025-11-29,227,17,10,4.24,2209,8,False,True,0.248,False
+W00522,Irfan Awan,Lahore,31.57669,74.35727,Mechanic,bike repair,25,2024-11-13,608,17,8,4.45,1734,16,False,True,0.077,False
+W00523,Shahid Ansari,Multan,30.15709,71.50513,Electrician,solar panel wiring;AC electrical;inverter/UPS install,50,2025-07-23,356,14,9,4.99,1020,24,True,False,0.068,False
+W00524,Usman Hussain,Faisalabad,31.41777,73.04807,Electrician,AC electrical,22,2024-08-13,700,47,33,3.48,1293,5,False,True,0.119,False
+W00525,Zeeshan Hussain,Rawalpindi,33.53463,72.98281,Masonry,plastering,37,2026-05-30,45,6,2,5.0,1248,17,False,True,0.16,False
+W00526,Usman Rajput,Peshawar,34.05571,71.49145,Masonry,boundary wall;tile fitting,33,2023-05-03,1168,24,17,4.28,1203,15,True,True,0.007,False
+W00527,Tariq Soomro,Islamabad,33.67558,73.02751,Electrician,solar panel wiring,22,2023-06-13,1127,74,50,3.98,2534,23,True,True,0.053,False
+W00528,Muhammad Khan,Faisalabad,31.46736,73.10757,Plumbing,drainage,48,2024-09-13,669,24,12,4.58,2373,17,True,False,0.052,False
+W00529,Ahmed Raza,Islamabad,33.66922,72.95358,Mechanic,AC repair,29,2025-04-30,440,16,11,4.27,2065,31,True,True,0.047,False
+W00530,Rashid Hussain,Karachi,24.76817,66.93944,Mechanic,electrical (auto);denting/painting;oil change,55,2025-08-24,324,7,5,5.0,1164,25,True,True,0.024,False
+W00531,Kashif Bhatti,Rawalpindi,33.52118,72.99508,Carpentry,wardrobe making;false ceiling,35,2024-12-03,588,24,16,4.29,780,11,True,True,0.048,False
+W00532,Shahid Qureshi,Rawalpindi,33.53164,73.01002,Plumbing,motor repair;drainage,26,2023-11-02,985,7,3,3.34,1002,7,True,True,0.125,False
+W00533,Ali Raza,Lahore,31.49566,74.38124,Mechanic,denting/painting,32,2023-03-15,1217,50,28,4.48,2794,13,True,True,0.027,False
+W00534,Zeeshan Rajput,Faisalabad,31.40541,73.03347,Masonry,flooring,27,2024-05-12,793,18,10,4.64,871,21,True,False,0.042,False
+W00535,Aftab Gill,Karachi,24.9549,67.07798,Electrician,inverter/UPS install;fan/light install;MCB/breaker,34,2023-10-01,1017,26,16,4.11,1373,5,True,True,0.0,False
+W00536,Rashid Qureshi,Karachi,24.90462,67.10219,Electrician,solar panel wiring;AC electrical,55,2024-10-30,622,19,8,3.73,1482,5,True,True,0.029,False
+W00537,Faisal Gill,Karachi,24.79287,66.92384,Electrician,fan/light install,42,2025-12-04,222,9,4,4.84,2550,18,True,True,0.041,False
+W00538,Ahmed Baloch,Lahore,31.53597,74.31747,Plumbing,bathroom fitting;pipe fitting;water tank install,42,2025-11-30,226,14,11,4.46,2180,26,True,True,0.028,False
+W00539,Yasir Hussain,Karachi,24.94288,66.99105,Masonry,waterproofing;flooring;tile fitting,40,2026-02-22,142,4,3,5.0,1896,5,True,False,0.064,False
+W00540,Ali Awan,Lahore,31.63564,74.31706,Carpentry,false ceiling;polishing,34,2024-10-06,646,21,11,4.4,2164,84,True,True,0.012,False
+W00541,Sajid Gill,Lahore,31.46097,74.33901,Mechanic,oil change,22,2024-12-09,582,11,9,4.28,1361,30,True,True,0.092,False
+W00542,Bilal Warraich,Lahore,31.5604,74.24953,Mechanic,oil change;denting/painting,34,2025-07-04,375,15,7,4.64,1904,16,False,False,0.016,False
+W00543,Rashid Hussain,Faisalabad,31.44552,72.99679,Masonry,waterproofing;tile fitting,21,2023-06-30,1110,35,16,3.28,1913,49,True,True,0.081,False
+W00544,Usman Rajput,Karachi,24.89805,66.90263,Mechanic,AC repair;electrical (auto),41,2025-07-24,355,5,4,5.0,2372,11,True,True,0.119,False
+W00545,Adnan Ahmed,Peshawar,34.01333,71.52029,Plumbing,pipe fitting,44,2023-07-28,1082,69,50,3.81,2498,40,False,True,0.037,False
+W00546,Ahmed Ahmed,Rawalpindi,33.52506,72.97171,Mechanic,denting/painting;engine repair;bike repair,53,2025-03-31,470,19,14,3.95,1214,23,False,False,0.011,False
+W00547,Irfan Rajput,Karachi,24.83372,66.98962,Carpentry,false ceiling,41,2026-05-23,52,0,0,,2650,11,False,True,0.007,True
+W00548,Rashid Malik,Islamabad,33.72828,73.04164,Carpentry,custom furniture;wardrobe making;polishing,47,2023-10-18,1000,31,23,4.7,852,19,True,True,0.102,False
+W00549,Irfan Soomro,Lahore,31.57543,74.37546,Masonry,brickwork;tile fitting;plastering,26,2023-06-29,1111,39,27,4.46,2747,32,True,True,0.014,False
+W00550,Irfan Soomro,Islamabad,33.66312,73.04051,Carpentry,wardrobe making,34,2024-12-01,590,19,9,3.97,854,31,True,False,0.199,False
+W00551,Rashid Rajput,Multan,30.14469,71.494,Electrician,solar panel wiring,34,2024-12-19,572,17,9,3.63,2133,21,True,True,0.025,False
+W00552,Javed Hussain,Karachi,24.80209,66.90234,Masonry,brickwork;tile fitting;waterproofing,31,2026-03-03,133,1,0,,1637,55,True,True,0.04,True
+W00553,Shahid Chaudhry,Karachi,24.76843,67.03979,Masonry,plastering;boundary wall;brickwork,38,2026-03-15,121,6,4,3.4,1107,32,False,True,0.134,False
+W00554,Rashid Hussain,Lahore,31.58947,74.39469,Mechanic,oil change;electrical (auto),33,2023-11-10,977,35,18,3.51,2684,5,True,True,0.048,False
+W00555,Ahmed Malik,Karachi,24.92293,67.07669,Mechanic,oil change,52,2025-01-03,557,18,10,4.04,465,14,True,True,0.016,False
+W00556,Adnan Abbasi,Multan,30.17605,71.53197,Masonry,flooring;waterproofing,23,2025-05-05,435,26,19,4.43,1158,43,True,True,0.039,False
+W00557,Sajid Rajput,Lahore,31.53544,74.38506,Masonry,flooring;plastering,50,2023-01-05,1286,30,22,4.63,549,63,True,False,0.085,False
+W00558,Ahmed Rajput,Karachi,24.84605,67.02618,Masonry,waterproofing;flooring,28,2024-04-29,806,36,19,4.63,1163,35,True,True,0.009,False
+W00559,Ahmed Warraich,Peshawar,34.01729,71.55413,Electrician,solar panel wiring,32,2024-08-28,685,15,12,4.12,2269,30,True,True,0.139,False
+W00560,Bilal Bhatti,Rawalpindi,33.54351,73.02736,Electrician,AC electrical;wiring,36,2025-08-11,337,9,6,4.38,1670,40,True,True,0.093,False
+W00561,Zeeshan Bhatti,Multan,30.09891,71.56526,Plumbing,leak repair,27,2025-12-30,196,8,4,3.5,2266,20,True,True,0.065,False
+W00562,Irfan Khan,Rawalpindi,33.55005,72.99281,Masonry,brickwork,37,2025-07-13,366,35,28,3.97,1543,16,True,False,0.059,False
+W00563,Aftab Butt,Lahore,31.5909,74.3192,Masonry,tile fitting;brickwork;flooring,49,2024-09-18,664,35,26,3.89,2101,6,True,True,0.073,False
+W00564,Aftab Baloch,Gujranwala,32.18604,74.21039,Mechanic,AC repair,37,2023-11-12,975,57,29,4.43,1831,17,True,False,0.064,False
+W00565,Adnan Baloch,Karachi,24.87163,67.02811,Masonry,plastering;tile fitting,35,2025-05-31,409,27,18,5.0,1416,28,True,False,0.041,False
+W00566,Kashif Rajput,Islamabad,33.6523,73.03218,Electrician,MCB/breaker;solar panel wiring,55,2023-12-11,946,38,31,4.16,502,23,True,True,0.028,False
+W00567,Ahmed Ansari,Karachi,24.78969,66.97185,Mechanic,electrical (auto);denting/painting,40,2024-07-03,741,30,16,4.27,2676,9,True,True,0.018,False
+W00568,Zeeshan Baloch,Faisalabad,31.35364,73.12608,Carpentry,door/window fitting,41,2023-03-02,1230,34,25,3.26,2038,9,True,True,0.052,False
+W00569,Bilal Abbasi,Karachi,24.97912,67.00155,Plumbing,bathroom fitting;drainage,37,2026-01-17,178,6,3,4.97,1506,10,False,False,0.094,False
+W00570,Shahid Rajput,Islamabad,33.68044,73.04619,Plumbing,leak repair,50,2023-03-31,1201,83,50,4.38,2633,13,True,True,0.052,False
+W00571,Waseem Warraich,Multan,30.14001,71.49223,Mechanic,denting/painting;AC repair;bike repair,35,2025-09-26,291,17,6,4.67,2043,11,True,False,0.036,False
+W00572,Ali Malik,Lahore,31.63887,74.30666,Plumbing,bathroom fitting;leak repair,35,2025-08-24,324,6,4,4.43,2190,6,True,True,0.039,False
+W00573,Tariq Memon,Islamabad,33.64657,73.02102,Plumbing,pipe fitting;leak repair;bathroom fitting,41,2025-09-24,293,8,5,3.93,635,46,True,True,0.055,False
+W00574,Bilal Ahmed,Karachi,24.8398,67.05099,Electrician,MCB/breaker;fan/light install;inverter/UPS install,49,2025-12-08,218,10,7,4.46,1592,15,True,True,0.013,False
+W00575,Muhammad Qureshi,Lahore,31.52536,74.43213,Plumbing,bathroom fitting;leak repair;drainage,28,2024-07-06,738,40,24,3.95,2225,26,False,True,0.177,False
+W00576,Adnan Niazi,Rawalpindi,33.54232,73.02079,Masonry,flooring;waterproofing,26,2023-09-21,1027,31,20,4.41,1822,53,True,True,0.113,False
+W00577,Muhammad Malik,Hyderabad,25.36885,68.32646,Mechanic,denting/painting;engine repair;oil change,21,2023-03-24,1208,74,39,3.59,1735,7,False,False,0.078,False
+W00578,Ahmed Ahmed,Quetta,30.19052,66.98383,Electrician,inverter/UPS install;AC electrical,32,2025-04-01,469,14,7,3.53,1333,25,True,True,0.07,False
+W00579,Naveed Warraich,Hyderabad,25.41987,68.35515,Carpentry,custom furniture;wardrobe making,24,2025-06-24,385,30,20,4.38,777,10,True,True,0.023,False
+W00580,Usman Rajput,Karachi,24.9234,67.00115,Masonry,flooring;tile fitting,41,2023-05-06,1165,42,32,3.73,1741,8,False,True,0.012,False
+W00581,Bilal Sheikh,Karachi,24.90664,66.9888,Mechanic,bike repair;AC repair,30,2023-05-24,1147,46,35,4.35,802,24,True,True,0.11,False
+W00582,Tariq Memon,Faisalabad,31.44574,73.09142,Electrician,MCB/breaker;inverter/UPS install,34,2024-10-03,649,16,10,4.27,1584,7,True,True,0.029,False
+W00583,Naveed Ansari,Rawalpindi,33.5909,73.02427,Plumbing,pipe fitting,45,2026-03-02,134,4,2,4.24,1194,111,True,True,0.036,False
+W00584,Irfan Memon,Lahore,31.458,74.36868,Carpentry,false ceiling;door/window fitting,40,2023-07-25,1085,28,13,4.71,2487,14,False,False,0.117,False
+W00585,Rashid Raza,Rawalpindi,33.56696,73.02485,Carpentry,false ceiling;polishing,23,2023-11-18,969,34,15,3.68,1400,9,True,True,0.002,False
+W00586,Muhammad Gill,Lahore,31.54174,74.32345,Mechanic,bike repair;denting/painting;oil change,49,2023-08-15,1064,76,63,3.9,901,7,False,False,0.028,False
+W00587,Ali Memon,Karachi,24.87723,67.0485,Masonry,plastering,43,2024-01-11,915,25,13,4.54,632,18,True,True,0.11,False
+W00588,Kashif Baloch,Karachi,24.8692,66.91221,Electrician,MCB/breaker,43,2024-11-10,611,27,11,4.79,1255,10,True,True,0.025,False
+W00589,Kashif Baloch,Lahore,31.46128,74.36833,Masonry,flooring,29,2023-10-04,1014,67,50,4.36,1475,17,True,False,0.033,False
+W00590,Waseem Awan,Lahore,31.61962,74.36488,Plumbing,bathroom fitting;leak repair,54,2025-09-10,307,4,2,4.35,814,41,True,False,0.082,False
+W00591,Ali Khan,Karachi,24.85155,66.9296,Carpentry,door/window fitting,47,2026-01-10,185,7,5,4.08,1163,20,False,True,0.083,False
+W00592,Faisal Baloch,Lahore,31.56405,74.41272,Plumbing,drainage;bathroom fitting;motor repair,43,2023-07-28,1082,31,15,4.56,516,11,False,True,0.184,False
+W00593,Rashid Ahmed,Islamabad,33.64155,73.07977,Mechanic,denting/painting;bike repair,34,2025-03-07,494,30,16,3.85,1806,27,False,True,0.05,False
+W00594,Naveed Khan,Faisalabad,31.40806,73.13197,Masonry,boundary wall;plastering;flooring,30,2024-05-01,804,53,32,3.73,2415,27,True,True,0.131,False
+W00595,Waseem Qureshi,Lahore,31.55552,74.38112,Masonry,flooring;waterproofing;boundary wall,50,2026-06-05,39,3,1,3.14,1754,10,False,False,0.106,False
+W00596,Waseem Butt,Rawalpindi,33.57908,73.02913,Carpentry,false ceiling;furniture repair,53,2025-02-23,506,14,8,3.62,971,10,True,True,0.035,False
+W00597,Shahid Soomro,Rawalpindi,33.62697,73.06481,Carpentry,furniture repair;door/window fitting,41,2024-12-24,567,11,7,4.61,486,55,False,True,0.01,False
+W00598,Sajid Memon,Islamabad,33.6823,73.00627,Masonry,plastering;boundary wall,28,2026-01-05,190,13,10,5.0,1371,14,False,True,0.012,False
+W00599,Sajid Chaudhry,Lahore,31.57473,74.41516,Masonry,waterproofing;flooring,41,2026-05-29,46,1,0,,2403,8,False,True,0.041,True
+W00600,Shahid Memon,Hyderabad,25.38837,68.33923,Masonry,flooring;waterproofing;brickwork,30,2025-08-11,337,7,3,4.44,1277,11,False,True,0.023,False
